@@ -51,25 +51,25 @@
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 750
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 13950
 	}
@@ -107,25 +107,25 @@
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 14900
 	}
@@ -163,25 +163,25 @@
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 1775
 	}

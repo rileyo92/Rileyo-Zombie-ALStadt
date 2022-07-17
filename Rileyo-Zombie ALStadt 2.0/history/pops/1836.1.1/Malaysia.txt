@@ -40,7 +40,7 @@
 	}
 
 	artisans = {
-		culture = tamil
+		culture = dravidian
 		religion = hindu
 		size = 1100
 	}
