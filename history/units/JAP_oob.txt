@@ -1,0 +1,243 @@
+army = {
+	name = "Army of the Tokugawa Shogunate"
+	
+	leader = {
+		name = "Tokugawa Nariaki"
+		date = 1836.1.1
+		type = land
+		personality = disciplined
+		background = old_school
+		prestige = 0.1
+	
+	}
+	
+	location = 1650
+	regiment = {
+		name= "1.Edo"
+		type = irregular
+		home = 1650
+	}
+
+	regiment = {
+		name= "2.Edo"
+		type = irregular
+		home = 1649
+	}
+
+	regiment = {
+		name= "3.Edo"
+		type = irregular
+		home = 1652
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Mori"
+	location = 1640
+	regiment = {
+		name= "1.Choshu"
+		type = irregular
+		home = 1640
+	}
+
+	regiment = {
+		name= "2.Choshu"
+		type = irregular
+		home = 1638
+	}
+
+	regiment = {
+		name= "3.Choshu"
+		type = irregular
+		home = 1641
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Shimazu"
+	location = 1662
+	regiment = {
+		name= "1.1 Satsuma"
+		type = irregular
+		home = 1662
+	}
+
+	regiment = {
+		name= "2.1 Satsuma"
+		type = irregular
+		home = 1660
+	}
+
+	regiment = {
+		name= "3.1 Satsuma"
+		type = irregular
+		home = 1661
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Yamanuchi"
+	location = 1665
+	regiment = {
+		name= "1.Tosa"
+		type = irregular
+		home = 1665
+	}
+
+	regiment = {
+		name= "2.Tosa"
+		type = irregular
+		home = 1667
+	}
+
+	regiment = {
+		name= "3.Tosa"
+		type = irregular
+		home = 1666
+	}
+
+}
+
+army = {
+	name = "1st Army"
+	location = 1658
+	regiment = {
+		name= "1.reg"
+		type = irregular
+		home = 1649
+	}
+
+	regiment = {
+		name= "2.reg"
+		type = irregular
+		home = 1651
+	}
+
+	regiment = {
+		name= "3.reg"
+		type = irregular
+		home = 1653
+	}
+	regiment = {
+		name= "4.reg"
+		type = cavalry
+		home = 1655
+	}
+	regiment = {
+		name= "5.reg"
+		type = cavalry
+		home = 1655
+	}
+	regiment = {
+		name= "6.reg"
+		type = cavalry
+		home = 1656
+	}
+	regiment = {
+		name= "7.reg"
+		type = cavalry
+		home = 1657
+	}
+	regiment = {
+		name= "8.reg"
+		type = cavalry
+		home = 1657
+	}
+	regiment = {
+		name= "9.reg"
+		type = cavalry
+		home = 1658
+	}
+	regiment = {
+		name= "10.reg"
+		type = cavalry
+		home = 1659
+	}
+	regiment = {
+		name= "11.reg"
+		type = cavalry
+		home = 1664
+	}
+	regiment = {
+		name= "11.reg"
+		type = cavalry
+		home = 1675
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Date"
+	location = 1668
+	regiment = {
+		name= "1.Sendai"
+		type = irregular
+		home = 1668
+	}
+
+	regiment = {
+		name= "2.Sendai"
+		type = irregular
+		home = 1673
+	}
+
+	regiment = {
+		name= "3.Sendai"
+		type = irregular
+		home = 1669
+	}
+
+}
+
+army = {
+	name = "Army of Daimyo Maeda"
+	location = 1646
+	regiment = {
+		name= "1.Kaga"
+		type = irregular
+		home = 1645
+	}
+
+	regiment = {
+		name= "2.Kaga"
+		type = irregular
+		home = 1675
+	}
+
+	regiment = {
+		name= "3.Kaga"
+		type = irregular
+		home = 1677
+	}
+
+}
+
+navy = {
+	name = "Imperial Fleet"
+	location = 1657
+	ship = {
+		name= "1 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4 Yusosentai"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5 Yusosentai"
+		type = clipper_transport
+	}
+
+}
+
