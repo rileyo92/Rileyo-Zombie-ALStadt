@@ -2253,7 +2253,7 @@ country_event = {
 		name = "EVTOPTA16420"
 		any_pop = {
 			limit = {
-				culture = dakota
+				culture = native_american_minor
 			}
 			militancy = 8
 		}
@@ -2282,7 +2282,7 @@ country_event = {
 		prestige = -5
 		any_pop = {
 			limit = {
-				culture = dakota
+				culture = native_american_minor
 			}
 			militancy = 10
 			consciousness = 10

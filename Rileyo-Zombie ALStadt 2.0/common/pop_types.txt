@@ -998,11 +998,6 @@ emigration_chance =
 	   factor = -0.5
 		 culture = nanfaren
 	}
-
-	modifier = {
-	   factor = -0.5
-		 culture = beifaren
-	}
 }
 #general assimilation mtth, same for all pops
 assimilation_chance = {

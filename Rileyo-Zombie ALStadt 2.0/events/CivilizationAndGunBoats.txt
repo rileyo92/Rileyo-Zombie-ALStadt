@@ -2007,30 +2007,20 @@ country_event = {
 		ai = yes
 		civilized = no
 		OR = {
-			primary_culture = assamese
 			primary_culture = bengali
-			primary_culture = bihari
-			primary_culture = manipuri
+			primary_culture = indo_aryian
+			primary_culture = dravidian
 			primary_culture = nepali
-			primary_culture = oriya
 			primary_culture = sinhala
-			primary_culture = avadhi
-			primary_culture = kanauji
-			primary_culture = panjabi
 			primary_culture = kashmiri
-			primary_culture = gujarati
-			primary_culture = marathi
 			primary_culture = sindi
-			primary_culture = rajput
-			primary_culture = kannada
-			primary_culture = malayalam
-			primary_culture = tamil
-			primary_culture = telegu
+      primary_culture = panjabi
+			primary_culture = baluchi
 		}
 	}
 
 	mean_time_to_happen = {
-		months = 400
+		months = 150
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -2095,6 +2085,95 @@ country_event = {
 	}
 }
 
+#Doctrine of Lapse EIC 1/2
+country_event = {
+	id = 9001
+	title = "EVTNAME13357"
+	desc = "EVTDESC13357"
+
+	picture = "Rebellion"
+
+	trigger = {
+		vassal_of = EIC
+		ai = yes
+		civilized = no
+		OR = {
+			primary_culture = bengali
+			primary_culture = indo_aryian
+			primary_culture = dravidian
+			primary_culture = nepali
+			primary_culture = sinhala
+			primary_culture = kashmiri
+			primary_culture = sindi
+      primary_culture = panjabi
+			primary_culture = baluchi
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 150
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				prestige = 10
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				prestige = 5
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA13357"
+		any_pop = {
+			militancy = 4
+			consciousness = 1
+		}
+		EIC = {
+			country_event = { id=9002 days=0 }
+		}
+	}
+}
+
+# Doctrine of Lapse EIC 2/2
+country_event = {
+	id = 9002
+	title = "EVTNAME13358"
+	desc = "EVTDESC13358"
+	news = yes
+	news_desc_long = "EVTDESC13358_NEWS_LONG"
+	news_desc_medium = "EVTDESC13358_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC13358_NEWS_SHORT"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA13358"
+		prestige = 4
+		inherit = FROM
+		set_global_flag = doctrine_of_lapse_has_been_used
+	}
+
+	option = {
+		name = "EVTOPTB13358"
+		prestige = -2
+	}
+}
+
+
 country_event = {
 	title = "westernize_nation_title"
 	desc = "westernize_nation_desc"
@@ -2107,7 +2186,7 @@ country_event = {
 	id = 90910
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { tag = CHI }
 		NOT = { tag = GXI }
@@ -2118,7 +2197,7 @@ country_event = {
 		NOT = { tag = MGL }
 		}
 
-	option = {				
+	option = {
 		name = "EVTOPTA90910"
 
 		prestige = 10
@@ -2150,34 +2229,34 @@ country_event = {
 	id = 90950
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		#
 		}
 
-	option = {				
+	option = {
 		name = "EVTOPTA90950"
 		casus_belli = {
 			target = FROM
 			type = make_puppet
 			months = 12
 		}
-		
+
 		relation = {
 			who = FROM
 			value = -100
 		}
-		
+
 	}
-	
-	option = {				
+
+	option = {
 		name = "EVTOPTB90950"
 
 		relation = {
 			who = FROM
 			value = 100
 		}
-		
+
 	}
 
 }

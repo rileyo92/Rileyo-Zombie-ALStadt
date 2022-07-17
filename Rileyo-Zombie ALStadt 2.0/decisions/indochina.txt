@@ -15,7 +15,6 @@ political_decisions = {
     }
     effect = {
       add_accepted_culture = manipuri
-      add_accepted_culture = assamese
       add_accepted_culture = tibetan
       add_accepted_culture = yi
       ENG_1343 = { add_core = THIS }
@@ -43,7 +42,7 @@ political_decisions = {
       owns = 1338
     }
     effect = {
-      add_accepted_culture = karen
+      add_accepted_culture = burmese
       add_accepted_culture = khmer
       add_accepted_culture = zhuang
       ENG_1343 = { add_core = THIS }

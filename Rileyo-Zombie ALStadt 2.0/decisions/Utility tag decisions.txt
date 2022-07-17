@@ -52,14 +52,12 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = beifaren
             	has_pop_culture = nanfaren
             	has_pop_culture = hakka
             	has_pop_culture = min
             	has_pop_culture = yue
             	has_pop_culture = zhuang
             	has_pop_culture = yi
-            	has_pop_culture = hui
 						}
 					}
 					reduce_pop = 0.33

@@ -374,10 +374,7 @@ political_decisions = {
 		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
 		news_desc_short = "form_scandinavia_NEWS_SHORT"
 		potential = {
-			OR = {
-				is_culture_group = scandinavian
-				is_culture_group = bears
-			}
+			is_culture_group = scandinavian
 			NOT = {
 				exists = SCA
 			}
@@ -408,7 +405,6 @@ political_decisions = {
 			add_accepted_culture = norwegian
 			add_accepted_culture = finnish
 			add_accepted_culture = icelandic
-			add_accepted_culture = sami
 			any_country = {
 				limit = {
 					NOT = {

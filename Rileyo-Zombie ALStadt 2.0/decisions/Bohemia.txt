@@ -97,3 +97,4 @@ political_decisions = {
       set_country_flag = poles_in_czechia
     }
   }
+}

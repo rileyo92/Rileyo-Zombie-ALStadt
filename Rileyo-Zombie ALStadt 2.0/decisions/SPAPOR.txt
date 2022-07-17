@@ -103,40 +103,7 @@ political_decisions = {
 		effect = {
 			SPA_474 = { add_core = THIS }
 			set_country_flag = galicia_claimed
-			SPA = { clr_country_flag = galicia_claimed }
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 474
-						province_id = 476
-					}
-				}
-				assimilate = yes
-			}
-		}
-	}
-
-	claim_galicia_spain = {
-		potential = {
-			tag = SPA
-			NOT = { has_country_flag = galicia_claimed }
-		}
-		allow = {
-			owns = 474
-		}
-		effect = {
-			SPA_474 = { add_core = THIS }
-			set_country_flag = galicia_claimed
-			POR = { clr_country_flag = galicia_claimed }
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 474
-						province_id = 476
-					}
-				}
-				assimilate = yes
-			}
+			prestige = 5
 		}
 	}
 
@@ -156,7 +123,7 @@ political_decisions = {
 		}
 	}
 
-	unite_iberia = [
+	unite_iberia = {
 		potential = {
 			OR = {
 				tag = SPA
@@ -188,5 +155,5 @@ political_decisions = {
 			add_accepted_culture = catalan
 			set_country_flag = iberian_union
 		}
-	]
+	}
 }

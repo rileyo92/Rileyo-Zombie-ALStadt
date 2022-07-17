@@ -181,7 +181,7 @@ political_decisions = {
 		effect = {
 			badboy = 10
 			add_accepted_culture = estonian
-			add_accepted_culture = uralic
+			add_accepted_culture = ugrian
 			add_accepted_culture = latvian
 			set_country_flag = finno_uralic
 			RUS_339 = { add_core = THIS }

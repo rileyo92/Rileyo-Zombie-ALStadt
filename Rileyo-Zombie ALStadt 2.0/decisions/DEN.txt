@@ -42,7 +42,7 @@ political_decisions = {
 				369 = {
 					owner = {
 						in_sphere = THIS
-						puppet_of = THIS
+						vassal_of = THIS
 					}
 				}
 			}

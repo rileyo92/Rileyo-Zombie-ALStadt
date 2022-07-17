@@ -819,11 +819,27 @@ switched_production = {
 	icon = 14
 }
 
+Bonus_Immigration = {
+	global_immigrant_attract = 0.25 #25%
+	icon = 17
+}
+
 tanzimat_reform = {
 	administrative_efficiency_modifier = 0.2
 	education_efficiency_modifier = 0.2
 	icon = 15
 }
+
+integration_campaign = {
+	assimilation_rate = 0.1
+	icon = 17
+}
+
+land_of_opportunity = {
+	global_immigrant_attract = 0.5
+	icon = 17
+}
+
 recently_demoted_crafts = {
 	icon = 8
 }
