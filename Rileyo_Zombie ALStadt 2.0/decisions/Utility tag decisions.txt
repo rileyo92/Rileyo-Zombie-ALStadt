@@ -1,0 +1,224 @@
+political_decisions = {
+	global_setup_canals = {
+		potential = {
+			tag = UTI
+			NOT = { has_global_flag = setup_done }
+		}
+		allow = {
+
+		}
+		effect = {
+			enable_canal = 4
+			enable_canal = 5
+			enable_canal = 6
+			enable_canal = 7
+			enable_canal = 8
+			enable_canal = 9
+			enable_canal = 10
+			enable_canal = 11
+			enable_canal = 12
+			enable_canal = 13
+			enable_canal = 14
+			enable_canal = 15
+			enable_canal = 16
+			enable_canal = 17
+			enable_canal = 18
+			enable_canal = 19
+			enable_canal = 20
+			set_variable = {
+				which = money_millions
+				value = 0
+			}
+			set_global_flag = setup_done
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	global_setup = {
+		potential = {
+			ai = yes
+			NOT = { has_global_flag = global_setup_done }
+		}
+
+		allow = {}
+
+		effect = {
+			set_global_flag = global_setup_done
+
+			#chinese pop nerfs
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+            	has_pop_culture = nanfaren
+            	has_pop_culture = hakka
+            	has_pop_culture = min
+            	has_pop_culture = yue
+            	has_pop_culture = zhuang
+            	has_pop_culture = yi
+						}
+					}
+					reduce_pop = 0.33
+				}
+			}
+
+			#New World pop buffs
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = caribeno
+              has_pop_culture = mexican
+							has_pop_culture = afro_caribeno
+							has_pop_culture = quechua
+						}
+					}
+					reduce_pop = 1.5
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = brazilian
+              has_pop_culture = afro_brazilian
+							has_pop_culture = central_american
+							has_pop_culture = anglo_canadian
+              has_pop_culture = french_canadian
+						}
+					}
+					reduce_pop = 2
+				}
+			}
+
+      any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = australian
+					}
+					reduce_pop = 3
+				}
+			}
+
+      any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+              has_pop_culture = south_andean
+              has_pop_culture = north_andean
+						}
+					}
+					reduce_pop = 3.5
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = platinean
+							has_pop_culture = boer
+						}
+					}
+					reduce_pop = 5
+				}
+			}
+
+			any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = texan
+					}
+					reduce_pop = 20
+				}
+			}
+
+			#literacy adjustments
+			any_country = {
+				limit = {
+					tag = AUS
+				}
+				any_pop = {
+					limit = {
+						OR = {
+            	has_pop_culture = north_italian
+							has_pop_culture = slovak
+						}
+					}
+					literacy = 0.30
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = hungarian
+							has_pop_culture = slovene
+						}
+					}
+					literacy = 0.15
+				}
+			}
+      any_country = {
+				limit = {
+					tag = FRA
+				}
+        any_pop = {
+    			limit = {
+    				OR = {
+    					has_pop_culture = south_german
+    					has_pop_culture = flemish
+    					has_pop_culture = basque
+    					has_pop_culture = catalan
+    					has_pop_culture = north_italian
+    				}
+    			}
+    			literacy = 0.30
+    		}
+			}
+      any_country = {
+				limit = {
+					tag = ENG
+				}
+        any_pop = {
+    			limit = {
+    				OR = {
+    					has_pop_culture = irish
+    				}
+    			}
+    			literacy = 0.20
+    		}
+			}
+			any_country = {
+				limit = {
+					tag = RUS
+				}
+        any_pop = {
+    			limit = {
+    				OR = {
+    					has_pop_culture = finnish
+							has_pop_culture = swedish
+							has_pop_culture = ashkenazi
+    				}
+    			}
+    			literacy = 0.70
+    		}
+				any_pop = {
+    			limit = {
+    				has_pop_culture = polish
+    			}
+    			literacy = 0.5
+    		}
+			}
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 100000
+			}
+			any_country = {
+				limit = { is_greater_power = no }
+				treasury = 50000
+			}
+		}
+	}
+}
