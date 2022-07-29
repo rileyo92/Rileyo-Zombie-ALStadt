@@ -3,31 +3,31 @@
 #Rangoon (344000/86000 POPS)
 1330 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 200
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 250
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 1200
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 250
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 22000
 	}
@@ -145,31 +145,31 @@
 #Pegu (560000/140000 POPS)
 1332 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 400
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 500
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 2400
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 500
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 44200
 	}
@@ -243,31 +243,31 @@
 #Toungoo (308000/77000 POPS)
 1333 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 300
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 325
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 1600
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 350
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 29425
 	}
@@ -338,31 +338,31 @@
 	}
 
 	aristocrats = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 5600
 	}
@@ -657,31 +657,31 @@
 	}
 
 	aristocrats = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 550
 	}
 
 	soldiers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 10100
 	}
@@ -770,31 +770,31 @@
 	}
 
 	aristocrats = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 350
 	}
 
 	artisans = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 15575
 	}
@@ -802,31 +802,31 @@
 #Putao (216000/54000 POPS)
 1341 = {
 	aristocrats = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 550
 	}
 
 	clergymen = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 550
 	}
 
 	artisans = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 2500
 	}
 
 	soldiers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 550
 	}
 
 	farmers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 49850
 	}
@@ -834,31 +834,31 @@
 #Myitkyina (364000/91000 POPS)
 1342 = {
 	aristocrats = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 400
 	}
 
 	clergymen = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 400
 	}
 
 	artisans = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 2000
 	}
 
 	soldiers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 400
 	}
 
 	farmers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 37800
 	}
@@ -935,31 +935,31 @@
 #Moulmein (272000/68000 POPS)
 1343 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 400
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 350
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 1100
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 300
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 30950
 	}
@@ -1033,31 +1033,31 @@
 #Mergui (332000/83000 POPS)
 1344 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 400
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 375
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 1100
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 400
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = theravada
 		size = 34825
 	}
@@ -1199,7 +1199,7 @@
 		size = 18825
 	}
 
-	clergymen = { 
+	clergymen = {
 		culture = asian_minor #Chin
 		religion = animist
 		size = 25
@@ -1224,4 +1224,3 @@
 	}
 
 }
-

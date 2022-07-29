@@ -263,7 +263,7 @@
 		size = 1800
 	}
 }
-#Forte Sao Joaquim (4000/1000 POPS) #now Roraima state Brazil 
+#Forte Sao Joaquim (4000/1000 POPS) #now Roraima state Brazil
 2532 = {
 	aristocrats = {
 		culture = amazonian
@@ -1417,25 +1417,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 2750
 	}
@@ -1535,25 +1535,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 930
 	}
@@ -3051,31 +3051,31 @@
 	}
 
 	aristocrats = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 900
 	}
@@ -3429,31 +3429,31 @@
 	}
 
 	aristocrats = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 900
 	}
@@ -3597,25 +3597,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 910
 	}
@@ -3775,25 +3775,25 @@
 	}
 
 	clergymen = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = tupinamba
+		culture = amazonian
 		religion = animist
 		size = 910
 	}

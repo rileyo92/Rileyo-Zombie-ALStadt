@@ -51,25 +51,25 @@
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 750
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 13950
 	}
@@ -107,25 +107,25 @@
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 14900
 	}
@@ -163,25 +163,25 @@
 	}
 
 	clergymen = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = beifaren
+		culture = nanfaren
 		religion = animist
 		size = 1775
 	}
@@ -282,7 +282,7 @@
 		size = 69175
 	}
 }
-#Tawang (836000/209000 POPS) #now NEFA in India  asian_minor = Chin 
+#Tawang (836000/209000 POPS) #now NEFA in India  asian_minor = Chin
 1593 = {
 	aristocrats = {
 		culture = tibetan
@@ -315,31 +315,31 @@
 	}
 
 	aristocrats = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 750
 	}
 
 	clergymen = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 400
 	}
 
 	artisans = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 1950
 	}
 
 	soldiers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 350
 	}
 
 	farmers = {
-		culture = kachin
+		culture = burmese
 		religion = animist
 		size = 35550
 	}

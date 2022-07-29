@@ -227,12 +227,6 @@
 		size = 400
 	}
 
-	officers = {
-		culture = dutch
-		religion = protestant
-		size = 0
-	}
-
 	bureaucrats = {
 		culture = dutch
 		religion = protestant

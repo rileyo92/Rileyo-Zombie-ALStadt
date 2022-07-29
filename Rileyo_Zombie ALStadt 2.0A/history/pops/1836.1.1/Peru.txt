@@ -1314,25 +1314,25 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 200
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 18700
 	}

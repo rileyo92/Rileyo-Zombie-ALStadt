@@ -123,31 +123,31 @@
 #Dutch Harbor (2000/500 POPS)
 4 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 450
 	}
@@ -155,31 +155,31 @@
 #Bethel (2000/500 POPS)
 5 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 2
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 3
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 225
 	}
@@ -281,31 +281,31 @@
 #Unalakeet (3000/750 POPS)
 2631 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 450
 	}
@@ -1249,31 +1249,31 @@
 	}
 
 	aristocrats = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1388,31 +1388,31 @@
 	}
 
 	aristocrats = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -1450,31 +1450,31 @@
 #Albuquerque (20000/5000 POPS)
 104 = {
 	aristocrats = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = pueblo
+		culture = native_american_minor
 		religion = animist
 		size = 2700
 	}
@@ -1639,7 +1639,7 @@
 		size = 900
 	}
 }
-#Pueblo (4000/1000 POPS)
+#native_american_minor (4000/1000 POPS)
 109 = {
 	aristocrats = {
 		culture = native_american_minor
@@ -1868,31 +1868,31 @@
 	}
 
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1900,31 +1900,31 @@
 #Billings (12000/3000 POPS)
 116 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1959,36 +1959,36 @@
 		size = 1800
 	}
 }
-#North Dakota Region (24000)
+#North native_american_minor Region (24000)
 #"ruled" by the USA/de facto under Native Control
 #Bismarck (8000/2000 POPS)
 117 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -1996,31 +1996,31 @@
 #Minot (8000/2000 POPS)
 118 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2058,31 +2058,31 @@
 #Dickinson (8000/2000 POPS)
 119 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2117,36 +2117,36 @@
 		size = 900
 	}
 }
-#South Dakota Region (24000)
+#South native_american_minor Region (24000)
 #"ruled" by the USA/de facto under Native Control
 #Sioux Falls (8000/2000 POPS)
 120 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2184,31 +2184,31 @@
 #Dupree (8000/2000 POPS)
 121 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -2216,31 +2216,31 @@
 #Rapid City (8000/2000 POPS)
 122 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2280,31 +2280,31 @@
 #Omaha (8000/2000 POPS)
 123 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2506,31 +2506,31 @@
 #Oklahoma City (12000/3000 POPS)
 129 = {
 	aristocrats = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 800
 	}
@@ -2574,31 +2574,31 @@
 #Tahlequah (12000/3000 POPS)
 130 = {
 	aristocrats = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 1600
 	}
@@ -3532,37 +3532,37 @@
 	}
 
 	aristocrats = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 	bureaucrats = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 	officers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 	clergymen = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 	artisans = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 200
 	}
 	soldiers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 75
 	}
 	farmers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 5000
 	}
@@ -3642,22 +3642,22 @@
 		size = 2000
 	}
 	clergymen = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 35
 	}
 	artisans = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 	soldiers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 	farmers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 2000
 	}
@@ -4249,31 +4249,31 @@
 #Sioux City (8000/2000 POPS)
 154 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -4283,31 +4283,31 @@
 #Minneapolis (8000/2000 POPS)
 155 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -4345,31 +4345,31 @@
 #Granite Falls (8000/2000 POPS)
 156 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -4377,31 +4377,31 @@
 #Moorhead (8000/2000 POPS)
 157 = {
 	aristocrats = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = dakota
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -6301,31 +6301,31 @@
 	}
 
 	aristocrats = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 1600
 	}
@@ -6983,31 +6983,31 @@
 	}
 
 	aristocrats = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = cherokee
+		culture = native_american_minor
 		religion = animist
 		size = 2775
 	}
@@ -7996,7 +7996,7 @@
 		religion = protestant
 		size = 200
 	}
-	
+
 	bureaucrats = {
 		culture = dixie
 		religion = protestant
@@ -8250,7 +8250,7 @@
 		religion = protestant
 		size = 475
 	}
-	
+
 	bureaucrats = {
 		culture = dixie
 		religion = protestant
@@ -8361,7 +8361,7 @@
 		size = 6000
 	}
 }
-#Delaware Region (76000)  
+#Delaware Region (76000)
 #ruled by the USA
 #Dover (76000/19000 POPS)
 222 = {
@@ -8431,7 +8431,7 @@
 		size = 500
 	}
 }
-#Pennsylvania Region (1536000)  
+#Pennsylvania Region (1536000)
 #ruled by the USA
 #Philadelphia (468000/117000 POPS)
 223 = {
@@ -8781,7 +8781,7 @@
 		size = 25175
 	}
 }
-#New Jersey Region (340000)  
+#New Jersey Region (340000)
 #ruled by the USA
 #Newark (156000/39000 POPS)
 229 = {
@@ -8951,7 +8951,7 @@
 		size = 20525
 	}
 }
-#New York Region (2140000)  
+#New York Region (2140000)
 #ruled by the USA
 #New York (440000/110000 POPS)
 232 = {
@@ -9343,7 +9343,7 @@
 		size = 17725
 	}
 }
-#Connecticut Region (304000)  
+#Connecticut Region (304000)
 #ruled by the USA
 #Hartford (304000/76000 POPS)
 241 = {
@@ -9419,7 +9419,7 @@
 		size = 1475
 	}
 }
-#Rhode Island Region (104000)  
+#Rhode Island Region (104000)
 #ruled by the USA
 #Providence (104000/26000 POPS)
 242 = {
@@ -9495,7 +9495,7 @@
 		size = 475
 	}
 }
-#Massachusetts Region (660000)  
+#Massachusetts Region (660000)
 #ruled by the USA
 #Boston (444000/111000 POPS)
 243 = {
@@ -9713,7 +9713,7 @@
 		size = 19575
 	}
 }
-#Vermont Region (284000)  
+#Vermont Region (284000)
 #ruled by the USA
 #Montpelier (284000/71000 POPS)
 246 = {
@@ -9777,7 +9777,7 @@
 		size = 7475
 	}
 }
-#New Hampshire Region (276000)  
+#New Hampshire Region (276000)
 #ruled by the USA
 #Concord (POPS)
 247 = {
@@ -9829,7 +9829,7 @@
 		size = 62200
 	}
 }
-#Maine Region (432000)  
+#Maine Region (432000)
 #ruled by the USA
 #Lewiston (240000/60000 POPS)
 248 = {

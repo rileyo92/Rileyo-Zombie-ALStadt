@@ -45,25 +45,25 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 600
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 125
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 11225
 	}
@@ -101,25 +101,25 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 4700
 	}
@@ -158,25 +158,25 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 300
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 5575
 	}
@@ -214,25 +214,25 @@
 	}
 
 	clergymen = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = aimara
+		culture = quechua
 		religion = catholic
 		size = 3725
 	}
