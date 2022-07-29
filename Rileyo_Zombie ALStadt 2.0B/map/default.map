@@ -23,7 +23,7 @@ sea_starts = {
 	3254 3255 3256 3257
 }
 
-definitions = "../mod/Rileyo_Zombie ALStadt 2.0A/map/definition.csv"
+definitions = "../mod/Rileyo_Zombie ALStadt 2.0B/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
