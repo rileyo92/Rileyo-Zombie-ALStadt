@@ -1,3 +1,4 @@
+
 USA_1 = { 1 2 3 4 5 2599 2630 2631 } #Alaska
 
 USA_78 = { 78 79 80 81 82 83 91 92 93 } #Pacific North-West
@@ -448,7 +449,7 @@ BEL_387 = { 387 388 } #Vlaanderen
 
 BEL_390 = { 390 387 391 } #Antwerp
 
-NET_375 = { 375 376 382 } #Holland
+NET_375 = { 375 376 } #Holland
 
 NET_385 = { 385 383 384 386 } #Friesland
 
@@ -576,9 +577,7 @@ TUR_824 = { 827 826 } #Ionian Islands
 
 TUR_805 = { 805 822 823 829 830 819 820 821 } #South Macedonia
 
-TUR_809 = { 809 808 815 816 817 } #Rumelia
-
-TUR_810 = { 810 811 812 813 814 } #Bulgaria
+TUR_810 = { 810 811 812 813 814 809 808 815 816 817 } #Bulgaria
 
 MAD_2117 = { 2117 2122 2116 2118 2121 2115 2120 2119 } #Madagascar
 
@@ -736,7 +735,7 @@ TUR_869 = { 869 870 872 871 867 } #Aydin
 
 TUR_873 = { 873 874 875 895 866 } #Konya
 
-TUR_881 = { 881 880 883 876 877 } #Kastamonu-Ankara
+TUR_881 = { 881 880 883 876 877 868 } #Kastamonu-Ankara
 
 TUR_855 = { 855 856 857 } #Cyprus
 
@@ -1006,7 +1005,7 @@ PRU_578 = { 578 579 2561 } #Nordrhein
 
 PRU_546 = { 544 545 547 548 530 } #Mecklenburg
 
-PRU_690 = { 690 691 692 693 694 } #Westprussen
+PRU_690 = { 690 691 693 694 } #Westprussen
 
 PRU_695 = { 695 696 697 698 } #Ostprussen
 
@@ -1014,7 +1013,7 @@ PRU_572 = { 572 574 575 576 577 573 } #Rhineland
 
 PRU_682 = { 682 683 684 685 } #Silesia
 
-PRU_549 = { 549 550 551 552 681 553 555 556 557 } #Brandenburg-Magdeburg
+PRU_549 = { 549 550 551 552 553 555 556 557 } #Brandenburg-Magdeburg
 
 MEC_544 = { 369 529 } #Holstein
 
