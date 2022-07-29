@@ -463,7 +463,7 @@ SWE_309 = { 309 311 310 312 313 316 314 315 } #Vestlandet
 
 SWE_308 = { 308 305 306 307 } #Nordnorge
 
-SWI_603 = { 603 606 611 2568 605 604 } #Switzerland
+SWI_603 = { 603 606 611 605 604 } #Switzerland
 
 SWI_605 = { 607 608 609 } #Romandie
 

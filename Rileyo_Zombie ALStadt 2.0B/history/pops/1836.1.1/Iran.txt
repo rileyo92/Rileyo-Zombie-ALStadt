@@ -645,38 +645,38 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 175
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 450
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 8200
 	}
 }
 #Luristan-Ardelan Region (476000)
 #under the rule of Persia in 1836
-#Kermanshah (236000/59000 POPS) #Lur POPs included in Persian 
+#Kermanshah (236000/59000 POPS) #Lur POPs included in Persian
 1117 = {
 	aristocrats = {
 		culture = persian
@@ -2265,31 +2265,31 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 550
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 10050
 	}
@@ -2403,31 +2403,31 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 425
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 75
 	}
 
 	farmers = {
-		culture = turkmen
+		culture = kazak
 		religion = sunni
 		size = 8225
 	}
