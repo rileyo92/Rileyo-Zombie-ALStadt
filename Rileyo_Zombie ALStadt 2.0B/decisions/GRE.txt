@@ -7,12 +7,12 @@ political_decisions = {
 				has_country_flag = voule_ton_ellinon
 			}
 		}
-	
+
 		allow = {
 			plurality = 3
 			prestige = 1
 		}
-		
+
 		effect = {
 			set_country_flag = voule_ton_ellinon
 			political_reform = wealth_weighted_voting
@@ -22,7 +22,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	megali_idea = {
 		potential = {
 			tag = GRE
@@ -30,7 +30,7 @@ political_decisions = {
 				has_country_flag = greece_has_got_a_brand_new_bag
 			}
 		}
-		
+
 		allow = {
 			invention = national_fraternity
 			owns = 832
@@ -50,7 +50,7 @@ political_decisions = {
 			owns = 843
 			owns = 846
 		}
-		
+
 		effect = {
 			prestige = 20
 			badboy = -5
@@ -66,7 +66,7 @@ political_decisions = {
 			set_country_flag = greece_has_got_a_brand_new_bag
 		}
 	}
-	
+
 	form_byzantine_empire = {
 		potential = {
 			tag = GRE
@@ -76,7 +76,7 @@ political_decisions = {
 				government = hms_government
 			}
 		}
-		
+
 		allow = {
 			owns = 825
 			owns = 828
@@ -117,9 +117,9 @@ political_decisions = {
 			owns = 872
 			owns = 873
 			owns = 874
-			owns = 875			
+			owns = 875
 		}
-		
+
 		effect = {
 			change_tag = BYZ
 			capital = 860
@@ -137,7 +137,11 @@ political_decisions = {
 				add_core = BYZ
 			}
 			prestige = 40
-			badboy = -10
+			add_accepted_culture = georgian
+			add_accepted_culture = armenian
+			add_accepted_culture = bulgarian
+			add_accepted_culture = albanian
+			add_accepted_culture = serb
 		}
 	}
 }

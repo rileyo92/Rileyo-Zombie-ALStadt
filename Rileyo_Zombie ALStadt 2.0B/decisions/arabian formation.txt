@@ -7,19 +7,12 @@ political_decisions = {
 			ARA = { exists = no }
 			is_culture_group = arab
 		}
-		
 		allow = {
-			OR = {
-				is_secondary_power = yes
-				AND = {
-					tag = NEJ
-					HDJ = { 
-						all_core = { 
-							owned_by = THIS 
-						} 
-					}
-				}
-			}
+			owns = 1151
+			owns = 1157
+			owns = 1178
+			owns = 1166
+			owns = 1167
 		}
 		effect = {
 			prestige = 20
@@ -27,7 +20,7 @@ political_decisions = {
 				limit = {
 					owned_by = THIS
 				}
-				remove_core = THIS 
+				remove_core = THIS
 				add_core = ARA
 			}
 			change_tag = ARA
@@ -51,10 +44,10 @@ political_decisions = {
 					add_core = ARA
 				}
 			}
-			
+
 		}
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
 }

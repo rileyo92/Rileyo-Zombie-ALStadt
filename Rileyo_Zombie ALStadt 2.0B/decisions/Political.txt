@@ -36,7 +36,7 @@ political_decisions = {
 						liberal = 60
 					}
 				}
-			}		
+			}
 		}
 	}
 	abolish_prohibition = {
@@ -49,10 +49,10 @@ political_decisions = {
 					government = fascist_dictatorship
 					government = bourgeois_dictatorship
 					government = presidential_dictatorship
-					NOT = {	
-						liberal = 50 
+					NOT = {
+						liberal = 50
 					}
-					NOT = { 
+					NOT = {
 						moralism = 20
 					}
 				}
@@ -70,12 +70,12 @@ political_decisions = {
 			}
 			central_bank_money_bill_printing = 1
 		}
-		
+
 		allow = {
 			money = 1000
 			modern_central_bank_system = 1
 		}
-		
+
 		effect = {
 			treasury = -1000
 			add_country_modifier = {
@@ -84,7 +84,7 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	enact_female_suffrage = {
 		potential = {
 			year = 1870
@@ -98,9 +98,9 @@ political_decisions = {
 			OR = {
 				vote_franschise = universal_weighted_voting
 				vote_franschise = universal_voting
-			}	
+			}
 		}
-		
+
 		allow = {
 			social_science = 1
 			revolution_n_counterrevolution = 1
@@ -120,7 +120,7 @@ political_decisions = {
 			}
 			average_consciousness = 4
 		}
-		
+
 		effect = {
 			war_exhaustion = -2
 			add_country_modifier = {
@@ -184,11 +184,11 @@ political_decisions = {
 			prestige = 10
 			add_country_modifier = {
 				name = meiji_restoration_boost
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
-	
+
 	the_meiji_restoration2 = {
 		potential = {
 			civilized = no
@@ -204,7 +204,7 @@ political_decisions = {
 			prestige = 10
 			add_country_modifier = {
 				name = meiji_restoration_boost
-				duration = -1
+				duration = 10950
 			}
 			economic_reform = yes_land_reform
 			any_pop = {
@@ -229,16 +229,16 @@ political_decisions = {
 				NOT = {
 					OR = {
 						AND = {
-							pop_majority_ideology = liberal 
+							pop_majority_ideology = liberal
 							year = 1855
 						}
-					year = 1875		
+					year = 1875
 					}
 				}
 			}
 		}
 	}
-	
+
 	leave_soi = {
 		alert = no
 		potential = {
@@ -265,10 +265,10 @@ political_decisions = {
 			country_event = { id=13201 days=0 }
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			# Ai will do, if sphere owner has LESS than thrice our brigades.
 			modifier = {
 				factor = 0
@@ -281,13 +281,13 @@ political_decisions = {
 			}
 		}
 	}
-	
+
 	leave_soi_ai = {
 		alert = no
 		potential = {
 			ai = yes
 			is_vassal = no
-			part_of_sphere = yes	
+			part_of_sphere = yes
 		}
 		allow = {
 			is_secondary_power = yes
@@ -309,10 +309,10 @@ political_decisions = {
 			country_event = { id=13201 days=0 }
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			# Ai will do, if sphere owner has LESS than thrice our brigades.
 			modifier = {
 				factor = 0
@@ -325,13 +325,13 @@ political_decisions = {
 			}
 		}
 	}
-	
-	
+
+
 	nationalize = {
 		alert = no
-			
+
 		potential = {
-			can_nationalize = yes 
+			can_nationalize = yes
 		}
 		allow = {
 			NOT = { part_of_sphere = yes }
@@ -339,7 +339,7 @@ political_decisions = {
 		effect = {
 			nationalize = yes
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
