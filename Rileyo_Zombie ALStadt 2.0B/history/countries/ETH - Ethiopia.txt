@@ -1,19 +1,22 @@
-capital = 1612
-primary_culture = manchu
-culture = nanfaren
-religion = mahayana
+capital = 1852
+primary_culture = amhara
+culture = oromo
+culture = tigray
+culture = afar
+culture = sidama
+religion = coptic
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.04
-non_state_culture_literacy = 0.02
+literacy = 0.07
+non_state_culture_literacy = 0.05
 
-ruling_party = CHI_conservative
+ruling_party = ETH_conservative
 upper_house = {
 	fascist = 0
-	liberal = 10
-	conservative = 75
-	reactionary = 15
+	liberal = 13
+	conservative = 69
+	reactionary = 18
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -23,9 +26,9 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "CHI_oob.txt"
+oob = "ETH_oob.txt"
 
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -37,16 +40,15 @@ political_parties = underground_parties
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
+
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-1861.1.1 = {
-	oob = "/1861/CHI_oob.txt"
-	literacy = 0.07
-	non_state_culture_literacy = 0.04
+#Military Reforms
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
 
-	#Military Reforms
-	foreign_training = yes_foreign_training
-}
+#Technologies
+flintlock_rifles = 1
