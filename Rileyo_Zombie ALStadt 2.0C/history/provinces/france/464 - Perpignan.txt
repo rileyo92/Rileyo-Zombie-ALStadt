@@ -3,4 +3,4 @@ controller = FRA
 add_core = FRA
 add_core = CAT
 trade_goods = grain
-life_rating = 32
+life_rating = 33
