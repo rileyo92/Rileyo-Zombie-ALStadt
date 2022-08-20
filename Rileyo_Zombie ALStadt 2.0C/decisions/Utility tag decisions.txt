@@ -61,6 +61,104 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	population_setup = {
+		potential = {
+			tag = UTI
+			NOT = { has_global_flag = population_setup_done }
+		}
+		allow = { }
+		effect = {
+			set_global_flag = population_setup_done
+			
+			#chinese pop nerfs
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+            	has_pop_culture = nanfaren
+            	has_pop_culture = hakka
+            	has_pop_culture = min
+            	has_pop_culture = yue
+            	has_pop_culture = zhuang
+            	has_pop_culture = yi
+						}
+					}
+					reduce_pop = 0.33
+				}
+			}
+
+			#New World pop buffs
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = caribeno
+              has_pop_culture = mexican
+							has_pop_culture = afro_caribeno
+							has_pop_culture = quechua
+						}
+					}
+					reduce_pop = 1.5
+				}
+			}
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = brazilian
+              has_pop_culture = afro_brazilian
+							has_pop_culture = central_american
+							has_pop_culture = anglo_canadian
+              has_pop_culture = french_canadian
+						}
+					}
+					reduce_pop = 2
+				}
+			}
+      any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = australian
+					}
+					reduce_pop = 3
+				}
+			}
+      any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+              has_pop_culture = south_andean
+              has_pop_culture = north_andean
+						}
+					}
+					reduce_pop = 3.5
+				}
+			}
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = platinean
+							has_pop_culture = boer
+						}
+					}
+					reduce_pop = 5
+				}
+			}
+			any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = texan
+					}
+					reduce_pop = 20
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 
 	literacy_setup = {
 		potential = {
@@ -69,6 +167,7 @@ political_decisions = {
 		}
 		allow = {		}
 		effect = {
+			set_global_flag = literacy_setup_done
 			any_country = { #Canada
 				limit = {
 					tag = CAN
@@ -354,6 +453,9 @@ political_decisions = {
 					literacy = 0.08
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }
