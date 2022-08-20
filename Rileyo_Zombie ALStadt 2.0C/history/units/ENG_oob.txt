@@ -1,5 +1,29 @@
 #Sphere of Influence
 
+CAN = {
+	value = 200 #relations
+	level = 5 #sphere
+	influence_value = 100
+}
+
+AST = {
+	value = 200 #relations
+	level = 5 #sphere
+	influence_value = 100
+}
+
+SAF = {
+	value = 200 #relations
+	level = 5 #sphere
+	influence_value = 100
+}
+
+EIC = {
+	value = 200 #relations
+	level = 5 #sphere
+	influence_value = 100
+}
+
 EGY = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
@@ -18,12 +42,12 @@ AFG = {
 }
 
 PAN = {
-	value = -50		#relation		
+	value = -50		#relation
 	influence_value = 25
 }
 
 SIN = {
-	value = -50		#relation		
+	value = -50		#relation
 	influence_value = 25
 }
 
@@ -32,11 +56,11 @@ BUR = {
 	influence_value = 25
 }
 
-JOH = { 
+JOH = {
 	value = -5
 }
 
-SIA = { 
+SIA = {
 	value = 75
 }
 
@@ -464,7 +488,7 @@ army = {
 
 army = {
 	name = "The Canada Garrison"
-	location = 57 
+	location = 57
 	regiment = {
 		name= "1.6th Division"
 		type = infantry
@@ -1106,7 +1130,7 @@ navy = {
 		name= "6th Transport Flotilla"
 		type = clipper_transport
 	}
-	
+
 	ship = {
 		name= "23th Transport Flotilla"
 		type = clipper_transport
@@ -1209,4 +1233,3 @@ navy = {
 	}
 
 }
-
