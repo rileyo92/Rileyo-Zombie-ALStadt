@@ -1737,7 +1737,7 @@ central_african = {
 		}
 	}
 	bantu = {
-		color = {233 134 28}
+		color = {63 32 10}
 		first_names = { Poaty Loembe M'voudoukousala Pratt N'Gangue M'voumbe Mfutila Kivuzi Nteve Kenje
 		}
 

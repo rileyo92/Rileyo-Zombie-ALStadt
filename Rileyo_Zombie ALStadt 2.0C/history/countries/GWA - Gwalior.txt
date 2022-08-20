@@ -1,31 +1,31 @@
-capital = 1852
-primary_culture = nilo_saharan
-culture = afro_asiatic
-religion = coptic
+capital = 1270
+primary_culture = indo_aryian
+religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.07
+literacy = 0.05
 non_state_culture_literacy = 0.05
 
-ruling_party = ETH_conservative
+ruling_party = GWA_conservative
 upper_house = {
 	fascist = 0
-	liberal = 13
-	conservative = 69
-	reactionary = 18
+	liberal = 11
+	conservative = 73
+	reactionary = 16
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
 
+
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "ETH_oob.txt"
+oob = "GWA_oob.txt"
 
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -43,9 +43,17 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-#Military Reforms
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
+1861.1.1 = {
+	oob = "/1861/GWA_oob.txt"
+	literacy = 0.10
+	non_state_culture_literacy = 0.10
 
-#Technologies
-flintlock_rifles = 1
+	#Military Reforms
+	foreign_training = yes_foreign_training
+	foreign_weapons = yes_foreign_weapons
+	foreign_officers = yes_foreign_officers
+
+	#Technologies
+	flintlock_rifles = 1
+	military_staff_system = 1
+}

@@ -1,19 +1,18 @@
-capital = 1852
-primary_culture = nilo_saharan
-culture = afro_asiatic
-religion = coptic
+capital = 2048
+primary_culture = bantu
+religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.07
-non_state_culture_literacy = 0.05
+literacy = 0.1
+non_state_culture_literacy = 0.04
 
-ruling_party = ETH_conservative
+ruling_party = ZAN_conservative
 upper_house = {
 	fascist = 0
-	liberal = 13
-	conservative = 69
-	reactionary = 18
+	liberal = 12
+	conservative = 76
+	reactionary = 12
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -22,8 +21,6 @@ upper_house = {
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
-oob = "ETH_oob.txt"
 
 slavery = yes_slavery
 upper_house_composition = appointed
@@ -43,9 +40,14 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-#Military Reforms
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
+1861.1.1 = {
+	oob = "/1861/ZAN_oob.txt"
+	literacy = 0.15
+	non_state_culture_literacy = 0.05
 
-#Technologies
-flintlock_rifles = 1
+	#Military Reforms
+	foreign_weapons = yes_foreign_weapons
+
+	#Technologies
+	flintlock_rifles = 1
+}
