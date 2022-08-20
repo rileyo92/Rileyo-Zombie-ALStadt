@@ -672,7 +672,7 @@
 }
 #Ceuta & Melilla (12000)
 #Ruled by Spain in 1836
-#Melilla (12000/3000 POPS, inc Ceuta)
+#Melilla (6000/1500 POPS)
 1689 = {
 	bureaucrats = {
 		culture = spanish
@@ -680,16 +680,22 @@
 		size = 15
 	}
 
+	clergymen = {
+		culture = spanish
+		religion = catholic
+		size = 50
+	}
+	
 	artisans = {
 		culture = spanish
 		religion = catholic
-		size = 35
+		size = 235
 	}
 
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 200
+		size = 100
 	}
 
 	clergymen = {
@@ -701,19 +707,13 @@
 	artisans = {
 		culture = maghrebi
 		religion = sunni
-		size = 1100
-	}
-
-	soldiers = {
-		culture = maghrebi
-		religion = sunni
-		size = 150
+		size = 550
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = sunni
-		size = 300
+		size = 175
 	}
 
 	clergymen = {
@@ -725,21 +725,83 @@
 	artisans = {
 		culture = berber
 		religion = sunni
-		size = 800
-	}
-
-	soldiers = {
-		culture = berber
-		religion = sunni
-		size = 125
+		size = 200
 	}
 
 	farmers = {
 		culture = berber
 		religion = sunni
-		size = 300
+		size = 100
 	}
 
+}
+#Ceuta (6000/1500 POPS)
+3250 = {
+	officers = {
+		culture = spanish
+		religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = spanish
+		religion = catholic
+		size = 50
+	}
+	
+	artisans = {
+		culture = spanish
+		religion = catholic
+		size = 235
+	}
+
+	soldiers = {
+		culture = spanish
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = berber
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = berber
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = berber
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 50
+	}
 }
 #Sus-Al Draa Region (436000)
 #under the rule of Morocco in 1836
