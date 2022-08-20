@@ -7,6 +7,9 @@ REB 	= 	"countries/rebels.txt"
 
 UTI		="countries/Utility Tag.txt"
 
+#Rileyo Additions
+EIC   = "countries/East India Company.txt"
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"
