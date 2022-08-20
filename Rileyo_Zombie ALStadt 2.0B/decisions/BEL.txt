@@ -66,7 +66,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = pic_integration
 			FRA_399 = { add_core = THIS }
-			badboy = 2.5
+			badboy = 2
 		}
 		ai_will_do = {
 			factor = 1

@@ -182,7 +182,7 @@ political_decisions = {
 			owns = 354
 		}
 		effect = {
-			badboy = 10
+			badboy = 7.5
 			add_accepted_culture = estonian
 			add_accepted_culture = ugrian
 			add_accepted_culture = latvian

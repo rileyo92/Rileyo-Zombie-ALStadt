@@ -100,13 +100,10 @@ political_decisions = {
 			any_pop = {
 				limit = {
 					has_pop_culture = native_american_minor
-					NOT = {
-						location = {
-							OR = {
-								province_id = 130
-								province_id = 131
-								province_id = 129
-							}
+					location = {
+						OR = {
+							province_id = 145
+							province_id = 143
 						}
 					}
 				}

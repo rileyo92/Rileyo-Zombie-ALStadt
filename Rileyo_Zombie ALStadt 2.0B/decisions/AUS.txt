@@ -204,7 +204,7 @@ political_decisions = {
 			owns = 783
 		}
 		effect = {
-			badboy = 2.5
+			badboy = 2
 			TUR_788 = { add_core = THIS }
 			set_country_flag = bosnia_claimed
 			any_pop = {

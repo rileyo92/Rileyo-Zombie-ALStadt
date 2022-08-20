@@ -31,7 +31,7 @@ political_decisions = {
     }
     effect = {
       set_country_flag = persian_irredentism
-      badboy = 10
+      badboy = 7.5
       AFG = { all_core = { add_core = PER } }
       KAL_1221 = { add_core = PER } #Baluchistan
       BUK_1207 = { add_core = PER } #Tajikistan

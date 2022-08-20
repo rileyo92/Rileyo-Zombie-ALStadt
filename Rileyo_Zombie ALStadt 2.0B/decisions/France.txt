@@ -322,7 +322,7 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = wallonian
-			badboy = 7.5
+			badboy = 5
 			BEL_394 = { add_core = THIS }
 			BEL_395 = { add_core = THIS }
 			set_country_flag = wallonia_integration
@@ -373,7 +373,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 5
-			badboy = 5
+			badboy = 2.5
 			SAR_720 = { add_core = FRA }
 			set_country_flag = piedmont_fra
 		}
@@ -393,7 +393,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 5
-			badboy = 5
+			badboy = 2.5
 			SPA_498 = { add_core = FRA }
 			set_country_flag = catalonia_fra
 		}

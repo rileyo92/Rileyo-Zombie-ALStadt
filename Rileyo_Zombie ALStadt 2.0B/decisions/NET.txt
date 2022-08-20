@@ -110,7 +110,7 @@ political_decisions = {
 			owns = 2096
 		}
 		effect = {
-			badboy = 12.5
+			badboy = 10
 			add_accepted_culture = boer
 			SAF = { all_core = { add_core = THIS } }
 			set_country_flag = kaap_reclaimed
@@ -134,7 +134,7 @@ political_decisions = {
 			SAF = { all_core = { owned_by = THIS } }
 		}
 		effect = {
-			badboy = 10
+			badboy = 7.5
 			add_accepted_culture = khoisan
 			ENG_2083 = { add_core = SAF add_core = THIS } #Namaqualand
 			ENG_2078 = { add_core = SAF add_core = THIS } #Hereroland

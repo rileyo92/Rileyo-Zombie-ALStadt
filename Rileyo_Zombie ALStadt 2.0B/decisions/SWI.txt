@@ -106,7 +106,7 @@ political_decisions = {
 		effect = {
 			primary_culture = south_german
 			add_accepted_culture = swiss
-			badboy = 20
+			badboy = 15
 			set_country_flag = swi_no_neutrality
 		}
 		ai_will_do = {

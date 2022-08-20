@@ -119,7 +119,7 @@ HAW_658 = { 658 686 2526 2623 } #Hawaiian Islands
 
 AUS_654 = { 654 655 661 660 2533 651 647 } #Northern Transylvania
 
-MOL_673 = { 673 672 670 671 676 677 678 } #Moldavia
+MOL_673 = { 673 672 670 671 676 677 678 662 663 } #Moldavia
 
 WAL_665 = { 665 666 664 668 667 669 674 675 818 } #Wallachia
 
@@ -954,8 +954,6 @@ SIC_753 = { 756 757 758 } #Puglia
 AUS_704 = { 704 705 714 703 2584 } #West Galicia
 
 AUS_702 = { 702 951 952 953 } #East Galicia
-
-AUS_662 = { 662 663 } #Bukovina
 
 AUS_950 = { 950 } #Transcarpathia
 
