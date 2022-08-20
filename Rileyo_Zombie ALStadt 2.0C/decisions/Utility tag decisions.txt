@@ -69,7 +69,7 @@ political_decisions = {
 		allow = { }
 		effect = {
 			set_global_flag = population_setup_done
-			
+
 			#chinese pop nerfs
 			any_country = {
 				any_pop = {
@@ -96,6 +96,11 @@ political_decisions = {
               has_pop_culture = mexican
 							has_pop_culture = afro_caribeno
 							has_pop_culture = quechua
+							has_pop_culture = danish
+							has_pop_culture = icelandic
+							has_pop_culture = norwegian
+							has_pop_culture = swedish
+							has_pop_culture = finnish
 						}
 					}
 					reduce_pop = 1.5
