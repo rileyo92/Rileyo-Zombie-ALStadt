@@ -189,10 +189,71 @@ country_event = {
 		add_accepted_culture = panjabi
 		add_accepted_culture = baluchi
 		add_accepted_culture = pashtun
+		any_pop = {
+			limit = {
+				OR = {
+					culture = bengali
+					culture = sindi
+					culture = panjabi
+					culture = baluchi
+					culture = pashtun
+				}
+			}
+			militancy = -6
+			consciousness = -6
+		}
+		any_pop = {
+			limit = {
+				NOT = {
+					OR = {
+						culture = bengali
+						culture = sindi
+						culture = panjabi
+						culture = baluchi
+						culture = pashtun
+					}
+				}
+			}
+			militancy = 8
+			consciousness = 6
+		}
 	}
 	option = {
 		name = "Support the Indo-Aryian Majority"
 		add_accepted_culture = indo_aryian
+		any_pop = {
+			limit = {
+				OR = {
+					culture = indo_aryian
+					culture = nepali
+				}
+			}
+			militancy = -6
+			consciousness = -6
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					culture = bengali
+					culture = sindi
+					culture = panjabi
+					culture = baluchi
+					culture = pashtun
+					culture = kashmiri
+					culture = sinhala
+					culture = asian_minor
+				}
+			}
+			militancy = 10
+			consciousness = 8
+		}
+		any_pop = {
+			limit = {
+				culture = dravidian
+			}
+			militancy = 4
+			consciousness = 2
+		}
 	}
 	option = {
 		name = "Support the dravidian and other smaller minorites"
@@ -203,5 +264,37 @@ country_event = {
 		add_accepted_culture = burmese
 		add_accepted_culture = tibetan
 		add_accepted_culture = shan
+		any_pop = {
+			limit = {
+				OR = {
+					culture = dravidian
+					culture = asian_minor
+					culture = kashmiri
+					culture = sinhala
+					culture = burmese
+					culture = tibetan
+					culture = shan
+				}
+			}
+			militancy = -4
+			consciousness = -4
+		}
+		any_pop = {
+			limit = {
+				NOT = {
+					OR = {
+						culture = dravidian
+						culture = asian_minor
+						culture = kashmiri
+						culture = sinhala
+						culture = burmese
+						culture = tibetan
+						culture = shan
+					}
+				}
+			}
+			militancy = 5
+			consciousness = 3
+		}
 	}
 }

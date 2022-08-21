@@ -30,6 +30,12 @@ political_decisions = {
 				value = 0
 			}
 			set_global_flag = setup_done
+			ENG = {
+				diplomatic_influence = {
+					who = EIC
+					value = 150
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
