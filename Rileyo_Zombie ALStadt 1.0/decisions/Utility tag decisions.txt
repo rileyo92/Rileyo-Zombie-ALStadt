@@ -35,6 +35,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
 	money_pops_setup = {
 		potential = {
 			tag = UTI
@@ -61,14 +62,15 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	population_setup = {
+
+	population_setup_nerfs = {
 		potential = {
 			tag = UTI
-			NOT = { has_global_flag = population_setup_done }
+			NOT = { has_global_flag = population_setup_nerfs_done }
 		}
 		allow = { }
 		effect = {
-			set_global_flag = population_setup_done
+			set_global_flag = population_setup_nerfs_done
 
 			#chinese pop nerfs
 			any_country = {
@@ -83,9 +85,23 @@ political_decisions = {
             	has_pop_culture = yi
 						}
 					}
-					reduce_pop = 0.33
+					reduce_pop = 0.30
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	population_setup_buffs = {
+		potential = {
+			tag = UTI
+			NOT = { has_global_flag = population_setup_buffs_done }
+		}
+		allow = { }
+		effect = {
+			set_global_flag = population_setup_buffs_done
 
 			#New World pop buffs
 			any_country = {
