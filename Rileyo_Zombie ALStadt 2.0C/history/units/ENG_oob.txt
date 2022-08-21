@@ -146,6 +146,18 @@ BUN = {
 	influence_value = 25
 }
 
+KUT = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+GWA = {
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
 HYD = {
 	value = 125
 	level = 5

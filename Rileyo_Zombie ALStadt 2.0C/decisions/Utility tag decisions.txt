@@ -29,7 +29,13 @@ political_decisions = {
 				which = money_millions
 				value = 0
 			}
-			set_global_flag = setup_done
+			set_global_flag = setup_doneS
+			ENG = {
+				diplomatic_influence = {
+					who = EIC
+					value = 500
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
