@@ -273,7 +273,7 @@ fascist_welfare = {
 }
 
 beer_hall_putsch = {
-	population_growth = -0.001	
+	population_growth = -0.001
 	pop_militancy_modifier = 0.2
 	icon = 18
 }
@@ -495,7 +495,7 @@ international_negotiations = {
 
 the_statue_of_liberty = {
 	prestige = 0.4
-	global_immigrant_attract = 0.40	#40% 
+	global_immigrant_attract = 0.40	#40%
 	global_assimilation_rate = 0.1
 	icon = 15
 }
@@ -701,11 +701,11 @@ the_walhalla = {
  CB_gen_plus = {
 	cb_generation_speed_modifier = 0.25
  }
- 
+
   CB_gen_minus = {
 	cb_generation_speed_modifier = -0.25
  }
- 
+
  ##more event modifiers
  recent_safari = {
 	prestige = 0.001
@@ -713,23 +713,27 @@ the_walhalla = {
  recent_safari2 = {
 	prestige = 0.001
  }
- 
+
  free_press_promised = {
 	prestige = 0.001
 	icon = 17
  }
- 
+
  yes_meeting_promised = {
 	prestige = 0.001
 	icon = 17
  }
- 
+
  trade_unions_promised = {
 	prestige = 0.001
 	icon = 17
  }
- 
- ##
+
+ land_of_opportunity = {
+	global_immigrant_attract = 0.5
+	icon = 17
+}
+
  meiji_restoration_boost = {
 	research_points_modifier = 0.3
 	icon = 5
@@ -752,7 +756,7 @@ nationalist_agitation = {
 }
 
 apache_raiders	= {
-	population_growth = -0.002	
+	population_growth = -0.002
 	pop_militancy_modifier = 0.2
 	icon = 18
 }
