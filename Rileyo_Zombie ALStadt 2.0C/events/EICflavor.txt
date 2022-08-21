@@ -193,3 +193,35 @@ country_event = {
 		prestige = -2
 	}
 }
+
+#Indian Accepted
+country_event = {
+	id = 200220
+	title = "The future of India"
+	desc = "India is fractured into many different ethnicites. We must now decide which group we should prioritise for government"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Support the muslim and sikh minorites"
+		add_accepted_culture = bengali
+		add_accepted_culture = sindi
+		add_accepted_culture = panjabi
+		add_accepted_culture = baluchi
+		add_accepted_culture = pashtun
+	}
+	option = {
+		name = "Support the Indo-Aryian Majority"
+		add_accepted_culture = indo_aryian
+	}
+	option = {
+		name = "Support the dravidian and other smaller minorites"
+		add_accepted_culture = dravidian
+		add_accepted_culture = asian_minor
+		add_accepted_culture = kashmiri
+		add_accepted_culture = sinhala
+		add_accepted_culture = burmese
+		add_accepted_culture = tibetan
+		add_accepted_culture = shan
+	}
+}

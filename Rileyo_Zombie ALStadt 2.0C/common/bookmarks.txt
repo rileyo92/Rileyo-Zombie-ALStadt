@@ -9,8 +9,8 @@ bookmark =
 
 bookmark =
 {
-	name = "DR_NAME"
-	desc = "DR_DESC"
+	name = "South Africa and India Released"
+	desc = "Same as before but South Africa and India have been Released as dominions in this bookmark"
 	date = 1836.1.2
 	cameraX = 2950
 	cameraY = 1550

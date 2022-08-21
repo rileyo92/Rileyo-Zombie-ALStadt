@@ -13,4 +13,18 @@ political_decisions = {
       set_country_flag = indian_gurkhas
     }
   }
+  future_of_india_eic = {
+    potential = {
+      tag = EIC
+      NOT = { has_country_flag = indian_future }
+    }
+    allow = {
+      year = 1890
+      revolution_n_counterrevolution = 1
+    }
+    effect = {
+      set_country_flag = indian_future
+      country_event = 200220
+    }
+  }
 }
