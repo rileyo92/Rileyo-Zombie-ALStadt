@@ -1,41 +1,4 @@
 political_decisions = {
-  new_land_of_opportunity = {
-	   picture = liberty_enlightening_the_world
-	   potential = {
-		   NOT = { tag = POR }
-		   OR = {
-			    continent = north_america
-			    continent = south_america
-			    tag = SAF
-          tag = ORA
-          tag = TRN
-          tag = AST
-          tag = NZL
-			 }
-			 NOT = { has_country_flag = a_land_of_opportunity }
-		}
-
-		allow = {
-			war = no
-			OR = {
-			   government = democracy
-			   government = hms_government
-			}
-		}
-
-		effect = {
-			set_country_flag = a_land_of_opportunity
-			add_country_modifier = {
-				name = land_of_opportunity
-				duration = 3650
-			}
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
   new_world_become_a_king = {
     potential = {
       OR = {
@@ -51,7 +14,7 @@ political_decisions = {
       NOT = { has_country_flag = a_change_of_government }
     }
     allow = {
-      year = 1846
+      year = 1845
     }
     effect = {
       set_country_flag = a_change_of_government
@@ -77,7 +40,7 @@ political_decisions = {
       NOT = { has_country_flag = a_change_of_government }
     }
     allow = {
-      year = 1846
+      year = 1845
     }
     effect = {
       set_country_flag = a_change_of_government
