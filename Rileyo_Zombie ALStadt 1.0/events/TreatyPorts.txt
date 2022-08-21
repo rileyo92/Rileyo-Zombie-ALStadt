@@ -3,7 +3,7 @@ province_event = {
 	id = 90954
 	title = "EVTNAME90954"
 	desc = "EVTDESC90954"
-		
+
 	trigger = {
 		OR = {
 			province_id = 1498
@@ -22,12 +22,11 @@ province_event = {
 		NOT = { province_id = 1499 }
 		owner = {
 			civilized = yes
-			NOT = { primary_culture = beifaren }
 			NOT = { primary_culture = nanfaren }
 			NOT = { primary_culture = manchu }
 		}
 	}
-	
+
 	mean_time_to_happen = { months = 1 }
 
 	option = {
@@ -43,14 +42,13 @@ province_event = {
 	id = 90955
 	title = "EVTNAME90954"
 	desc = "EVTDESC90955"
-		
+
 	trigger = {
 		owner = { capital_scope = { continent = asia } }
 		OR = {
-			owner = { primary_culture = beifaren }
 			owner = { primary_culture = nanfaren }
 			owner = { primary_culture = manchu }
-		}	
+		}
 		trade_goods = precious_metal
 		OR = {
 			province_id = 1498
@@ -61,7 +59,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = { months = 1 }
-	
+
 	option = {
 		name = "EVTOPTA90955"
 		add_province_modifier = { name = treaty_port duration = -1 }

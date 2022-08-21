@@ -33,7 +33,8 @@ political_decisions = {
       2582 = { add_core = HUN } #Kotor
       AUS_704 = { add_core = HUN } #West Galicia
       AUS_702 = { add_core = HUN } #East Galicia
-      AUS_662 = { add_core = HUN } #Bukovina
+      662 = { add_core = HUN } #Bukovina
+      663 = { add_core = HUN } #Bukovina
       AUS_619 = { add_core = AUS } #Upper Austria
       AUS_612 = { add_core = AUS } #Lower Austria
       AUS_734 = { add_core = AUS } #South Tyrol

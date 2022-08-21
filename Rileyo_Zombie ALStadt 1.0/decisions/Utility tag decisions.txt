@@ -30,12 +30,6 @@ political_decisions = {
 				value = 0
 			}
 			set_global_flag = setup_doneS
-			ENG = {
-				diplomatic_influence = {
-					who = EIC
-					value = 500
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -254,7 +248,7 @@ political_decisions = {
 						OR = {
             	has_pop_culture = native_american_minor
 							has_pop_culture = mayan
-							has_pop_culture = nauha
+							has_pop_culture = nahua
 						}
 					}
 					literacy = -0.05

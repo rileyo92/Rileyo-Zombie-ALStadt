@@ -23,10 +23,6 @@ political_decisions = {
 					duration = 3650
 				}
 			}
-			add_country_modifier = {
-				name = Bonus_Immigration
-				duration = 9125
-			}
 			ENG = {
 				any_owned = {
 					limit = {
