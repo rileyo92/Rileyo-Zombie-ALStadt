@@ -57,6 +57,7 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = signed_the_geneva_convention
 			}
+			NOT = { has_country_flag = gas_attacking }
 		}
 
 		allow = {

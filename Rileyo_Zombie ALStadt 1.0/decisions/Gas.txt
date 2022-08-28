@@ -12,13 +12,14 @@ political_decisions = {
 			effect = {
 				set_country_flag = gas_attacking
 				badboy = 12.5
+				remove_country_modifier = signed_the_geneva_convention
 			}
 			ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				badboy = 0.5
-			}
+				factor = 1
+				modifier = {
+					factor = 0
+					badboy = 0.5
+				}
 		}
 	}
 }

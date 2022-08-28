@@ -669,7 +669,7 @@ the_eiffel_tower = {
 signed_the_geneva_convention = {
 	war_exhaustion = -0.02
 	org_regain = 0.05
-	badboy = 0.01
+	badboy = -0.05
 	icon = 7
 }
 
