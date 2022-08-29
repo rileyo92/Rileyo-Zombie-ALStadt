@@ -1,0 +1,6 @@
+# Changelog (brief)
+# Population buffs for non-USA Americans, South Africa, Australia and Scandinavia
+# Literacy rework to redistribute the spread of literacy among countries
+# Released Canada, Australia and Finland at game start as puppets
+# Released South Africa, New Zealand and India in a second bookmark
+# Added decisions which adds cores and cultures for several nations

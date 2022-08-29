@@ -15,6 +15,9 @@ country_event = {
 		year = 1846
 		KRA = { in_sphere = THIS }
 	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	option = {
 		name = "The map will look much better without them"
 		inherit = KRA
@@ -23,6 +26,4 @@ country_event = {
 		name = "The Free City of Krakow shall remain free"
 		badboy = -2
 	}
-}	
-		
-			
+}

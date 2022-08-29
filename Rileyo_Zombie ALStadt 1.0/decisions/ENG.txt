@@ -205,7 +205,7 @@ political_decisions = {
 		allow = {}
 		effect = {
 			AST = { annex_to = THIS }
-			badboy = 15
+			badboy = 10
 		}
 		ai_will_do = {
 			factor = 0
@@ -224,7 +224,7 @@ political_decisions = {
 		allow = {}
 		effect = {
 			NZL = { annex_to = THIS }
-			badboy = 10
+			badboy = 5
 		}
 		ai_will_do = {
 			factor = 0
@@ -243,7 +243,7 @@ political_decisions = {
 		allow = {}
 		effect = {
 			CAN = { annex_to = THIS }
-			badboy = 15
+			badboy = 10
 		}
 		ai_will_do = {
 			factor = 0
