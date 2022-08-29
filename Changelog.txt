@@ -2,5 +2,19 @@
 # Population buffs for non-USA Americans, South Africa, Australia and Scandinavia
 # Literacy rework to redistribute the spread of literacy among countries
 # Released Canada, Australia and Finland at game start as puppets
-# Released South Africa, New Zealand and India in a second bookmark
+# Released South Africa and India in a second bookmark
 # Added decisions which adds cores and cultures for several nations
+#
+#
+##### Changelog (Detailed) vs Zombie 1.7.2
+#
+### General Changes
+#
+# Admin techs now give 7.5% admin efficiency each (up from 5%)
+# Education techs now give 5-10% research points, equivalent deducted from research point techs
+# Last 2 education techs give 20% education efficiency (up from 10%)
+# Geneva convention gives -0.05 infamy decay but is removed by gas attack
+#
+### Country-Specific Changes
+#
+#

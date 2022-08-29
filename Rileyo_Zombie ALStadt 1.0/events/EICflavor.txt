@@ -24,7 +24,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 180
+		months = 240
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -75,14 +75,12 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA13358"
-		prestige = 4
 		inherit = FROM
 		set_global_flag = doctrine_of_lapse_has_been_used
 	}
 
 	option = {
 		name = "EVTOPTB13358"
-		prestige = -2
 	}
 }
 
@@ -112,7 +110,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 180
+		months = 240
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -163,14 +161,12 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA13358"
-		prestige = 4
 		inherit = FROM
 		set_global_flag = doctrine_of_lapse_has_been_used
 	}
 
 	option = {
 		name = "EVTOPTB13358"
-		prestige = -2
 	}
 }
 

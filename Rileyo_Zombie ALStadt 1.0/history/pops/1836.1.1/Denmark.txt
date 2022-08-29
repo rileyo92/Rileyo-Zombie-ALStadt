@@ -2,25 +2,25 @@
 #Torshavn (7000/1750 POPS)
 253 = {
 	bureaucrats = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 135
 	}
 
 	farmers = {
-		culture = danish
+		culture = icelandic
 		religion = protestant
 		size = 1575
 	}
@@ -165,8 +165,8 @@
 		size = 14400
 	}
 }
-	
-	
+
+
 #Schleswig Region : 336000
 #Flensburg (236000/59000 POPS)
 370 = {
