@@ -169,13 +169,11 @@ country_migration_target =
 					THIS = { culture = basque }
 					THIS = { culture = spanish }
 					THIS = { culture = catalan }
-					THIS = { culture = galician }
 				}
 				OR = {
 					primary_culture = basque
 					primary_culture = spanish
 					primary_culture = catalan
-					primary_culture = galician
 				}
 			}
 			AND = { #Portugal
@@ -387,6 +385,7 @@ country_migration_target =
 			THIS = { culture = spanish }
 			THIS = { culture = catalan }
 			THIS = { culture = basque }
+			THIS = { culture = galician }
 			THIS = { culture = north_italian }
 			THIS = { culture = south_italian }
 		}
@@ -416,6 +415,9 @@ country_migration_target =
 			THIS = { culture = afro_antillean }
 			THIS = { culture = afro_brazilian }
 			THIS = { culture = afro_caribbean }
+			THIS = { culture = bantu }
+			THIS = { culture = niger_congo_a }
+			THIS = { culture = nilo_saharan }
 		}
 	}
 	modifier = {
