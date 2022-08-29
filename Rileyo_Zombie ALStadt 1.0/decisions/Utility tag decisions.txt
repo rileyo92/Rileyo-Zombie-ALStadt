@@ -91,7 +91,7 @@ political_decisions = {
             	has_pop_culture = yi
 						}
 					}
-					reduce_pop = 0.30
+					reduce_pop = 0.35
 				}
 			}
 		}
@@ -119,7 +119,6 @@ political_decisions = {
 							has_pop_culture = afro_caribeno
 							has_pop_culture = quechua
 							has_pop_culture = danish
-							has_pop_culture = icelandic
 							has_pop_culture = norwegian
 							has_pop_culture = swedish
 							has_pop_culture = finnish
@@ -145,7 +144,7 @@ political_decisions = {
       any_country = {
 				any_pop = {
 					limit = {
-						has_pop_culture = australian
+						has_pop_culture = icelandic
 					}
 					reduce_pop = 3
 				}
@@ -156,6 +155,7 @@ political_decisions = {
 						OR = {
               has_pop_culture = south_andean
               has_pop_culture = north_andean
+							has_pop_culture = australian
 						}
 					}
 					reduce_pop = 3.5
