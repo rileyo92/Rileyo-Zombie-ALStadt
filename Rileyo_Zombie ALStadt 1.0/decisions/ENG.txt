@@ -212,10 +212,10 @@ political_decisions = {
 		}
 	}
 
-	annex_new_zealand = {
+	annex_south_africa = {
 		potential = {
 			tag = ENG
-			NZL = {
+			SAF = {
 				vassal_of = THIS
 				ai = yes
 			}
@@ -223,7 +223,7 @@ political_decisions = {
 		}
 		allow = {}
 		effect = {
-			NZL = { annex_to = THIS }
+			SAF = { annex_to = THIS }
 			badboy = 5
 		}
 		ai_will_do = {
