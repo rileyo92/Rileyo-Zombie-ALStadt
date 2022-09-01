@@ -266,7 +266,7 @@ political_reforms = {
 			allow = {
 				NOT = { vote_franschise = none_voting }
 			}
-			global_immigrant_attract = 0.3
+			global_immigrant_attract = 0.03
 		}
 	}
 
