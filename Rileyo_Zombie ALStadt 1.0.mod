@@ -1,3 +1,3 @@
-name = "Rileyo_Zombie ALStadt 1.0"
-path = "mod/Rileyo_Zombie ALStadt 1.0"
-user_dir = "Rileyo_Zombie ALStadt 1.0"
+name = "Rileyo_Zombie ALStadt 1.1"
+path = "mod/Rileyo_Zombie ALStadt 1.1"
+user_dir = "Rileyo_Zombie ALStadt 1.1"
