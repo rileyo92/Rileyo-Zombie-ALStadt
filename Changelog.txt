@@ -8,13 +8,20 @@
 #
 ##### Changelog (Detailed) vs Zombie 1.7.2
 #
-### General Changes
+### Changes
 #
 # Admin techs now give 7.5% admin efficiency each (up from 5%)
 # Education techs now give 5-10% research points, equivalent deducted from research point techs
 # Last 2 education techs give 20% education efficiency (up from 10%)
 # Geneva convention gives -0.05 infamy decay but is removed by gas attack
-#
-### Country-Specific Changes
-#
+# Consolidated several cultures in india, central asia, south america and africa
+# Added Galician culture in Spain and Siebenbrugen in Romania
+# Brought over assimilation and colonial migration from Igor Puir
+# Altered immigration to make it more balanced for America and allows non-American countries to attract primary culture pops
+# Added decisions for all main mp nations that give cores and/or accepted pops
+# Rebalanced literacy and corrected non-accepted literacy issues
+# Added dominions of India and South Africa as playable mp nations
+# Chinese pops nerfed to 35% of vanilla pops but are more Consolidated
+# Scandinavia and American nations (not USA) gained pop buffs 
+# Consolidated many states for it to be easier to recruit and take in peace deals
 #
