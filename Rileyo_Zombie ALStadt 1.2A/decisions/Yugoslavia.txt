@@ -184,6 +184,7 @@ political_decisions = {
 			modifier = { factor = 0 badboy = 0.9 }
 		}
   }
+
   develop_bulgaria = {
     potential = {
       OR = {
@@ -235,5 +236,26 @@ political_decisions = {
 			factor = 1
 			modifier = { factor = 0 badboy = 0.9 }
 		}
+  }
+
+  integrate_greece_yug = {
+    potential = {
+      tag = YUG
+      NOT = { has_country_flag = greek_integration }
+    }
+    allow = {
+      revolution_n_counterrevolution = 1
+      owns = 834
+      owns = 805
+    }
+    effect = {
+      set_country_flag = greek_integration
+      TUR_805 = { add_core = YUG } #South Macedonia
+      TUR_832 = { add_core = YUG } #Thessalia
+      TUR_824 = { add_core = YUG } #Ionian Islands
+      GRE_837 = { add_core = YUG } #Attica
+      GRE_826 = { add_core = YUG } #Peloponnese
+      add_accepted_culture = greek
+    }
   }
 }

@@ -48,63 +48,6 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			badboy = 5
-			TUR_824 = { #Ionian Islands
-				life_rating = 5
-        any_pop = {
-					limit = {
-            has_pop_culture = greek
-          }
-          reduce_pop = 1.5
-        }
-			}
-			GRE_826 = { #Peloponnese
-				life_rating = 5
-        any_pop = {
-					limit = {
-            has_pop_culture = greek
-          }
-          reduce_pop = 2
-        }
-			}
-			GRE_837 = { #Athens
-				life_rating = 5
-        any_pop = {
-					limit = {
-            has_pop_culture = greek
-          }
-          reduce_pop = 2
-        }
-			}
-			TUR_832 = { #Thessalia
-				life_rating = 5
-				any_pop = {
-					limit = {
-            has_pop_culture = turkish
-          }
-          reduce_pop = 0.2
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = greek
-          }
-          reduce_pop = 1.5
-        }
-			}
-			TUR_805 = { #South Macedonia
-				life_rating = 5
-				any_pop = {
-					limit = {
-            has_pop_culture = turkish
-          }
-          reduce_pop = 0.3
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = greek
-          }
-          reduce_pop = 1.5
-        }
-			}
 			TUR_860 = { #Thrace
 				life_rating = 5
 				add_core = GRE
@@ -486,7 +429,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = albanian
 					}
-					reduce_pop = 2
+					reduce_pop = 1.5
 				}
 			}
 		}
@@ -547,4 +490,86 @@ political_decisions = {
 			modifier = { factor = 0 badboy = 0.9 }
 		}
   }
+
+	develop_greece = {
+		potential = {
+			OR = {
+				AND = {
+					tag = YUG
+					has_country_flag = greek_integration
+				}
+				tag = GRE
+				tag = BYZ
+			}
+			NOT = { has_global_flag = developing_greece }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 840
+			owns = 834
+			owns = 832
+			owns = 805
+			owns = 826
+		}
+		effect = {
+			set_global_flag = developing_greece
+			TUR_824 = { #Ionian Islands
+				life_rating = 5
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.5
+        }
+			}
+			GRE_826 = { #Peloponnese
+				life_rating = 5
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 2
+        }
+			}
+			GRE_837 = { #Athens
+				life_rating = 5
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 2
+        }
+			}
+			TUR_832 = { #Thessalia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.2
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.5
+        }
+			}
+			TUR_805 = { #South Macedonia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.3
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.5
+        }
+			}
+		}
+	}
 }
