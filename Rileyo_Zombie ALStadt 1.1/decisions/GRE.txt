@@ -32,38 +32,190 @@ political_decisions = {
 		}
 
 		allow = {
-			invention = national_fraternity
+			nationalism_n_imperialism = 1
+			owns = 834
+			owns = 840
 			owns = 832
-			owns = 831
-			owns = 833
-			owns = 825
-			owns = 824
-			owns = 820
-			owns = 819
-			owns = 821
 			owns = 805
-			owns = 822
-			owns = 823
-			owns = 829
-			owns = 830
-			owns = 844
 			owns = 843
-			owns = 846
+			owns = 847
+			owns = 860
+			owns = 863
+			owns = 869
+			owns = 855
 		}
 
 		effect = {
 			prestige = 20
-			badboy = -5
-			TUR_860 = {
-				add_core = GRE
+			badboy = 5
+			TUR_824 = { #Ionian Islands
+				life_rating = 5
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.5
+        }
 			}
-			TUR_863 = {
-				add_core = GRE
+			GRE_826 = { #Peloponnese
+				life_rating = 5
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 2
+        }
 			}
-			TUR_869 = {
+			GRE_837 = { #Athens
+				life_rating = 5
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 2
+        }
+			}
+			TUR_832 = { #Thessalia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.2
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.5
+        }
+			}
+			TUR_805 = { #South Macedonia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.3
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.5
+        }
+			}
+			TUR_860 = { #Thrace
+				life_rating = 5
 				add_core = GRE
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.4
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.5
+        }
+			}
+			EGY_843 = { #Aegan Islands
+				life_rating = 5
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.2
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 2
+        }
+			}
+			TUR_855 = { #Cyprus
+				life_rating = 5
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.2
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 3
+        }
+			}
+			TUR_863 = { #Hudavendigar
+				life_rating = 5
+				add_core = GRE
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.75
+        }
+			}
+			TUR_869 = { #Aydin
+				life_rating = 5
+				add_core = GRE
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 1.75
+        }
+			}
+			860 = { #Istanbul/Constantinople
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 2
+        }
+			}
+			861 = { #Uskudur
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 2
+        }
 			}
 			set_country_flag = greece_has_got_a_brand_new_bag
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.8 }
 		}
 	}
 
@@ -78,70 +230,309 @@ political_decisions = {
 		}
 
 		allow = {
-			owns = 825
-			owns = 828
-			owns = 829
-			owns = 830
-			owns = 831
-			owns = 832
-			owns = 833
+			owns = 826
 			owns = 834
-			owns = 835
-			owns = 836
-			owns = 837
-			owns = 838
-			owns = 839
 			owns = 840
-			owns = 841
-			owns = 842
+			owns = 832
+			owns = 805
 			owns = 843
-			owns = 844
-			owns = 845
-			owns = 846
 			owns = 847
-			owns = 848
-			owns = 858
-			owns = 859
-			owns = 860	# Constantinople
-			owns = 861
-			owns = 862
+			owns = 860
 			owns = 863
-			owns = 864
-			owns = 865
-			owns = 866
-			owns = 867
-			owns = 868
 			owns = 869
-			owns = 870
-			owns = 871
-			owns = 872
-			owns = 873
-			owns = 874
+			owns = 855
 			owns = 875
+			owns = 876
+			owns = 882
+			owns = 894
+			owns = 878
 		}
 
 		effect = {
+			badboy = 5
 			change_tag = BYZ
-			capital = 860
-			860 = {
-				change_province_name = "Constantinople"
-			}
-			any_owned = {
-				limit = {
-					is_colonial = no
-					OR = {
-						culture = greek
-						culture = turkish
-					}
-				}
-				add_core = BYZ
-			}
 			prestige = 40
 			add_accepted_culture = georgian
 			add_accepted_culture = armenian
 			add_accepted_culture = bulgarian
 			add_accepted_culture = albanian
 			add_accepted_culture = serb
+			TUR_806 = { add_core = BYZ } #North Macedonia
+			TUR_810 = { add_core = BYZ } #Bulgaria
+			TUR_853 = { add_core = BYZ } #Albania
+			MON_2582 = { add_core = BYZ } #Montenegro
+			SER_794 = { add_core = BYZ } #Serbia
+			TUR_873 = { #Konya
+				life_rating = 5
+				add_core = BYZ
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 3
+        }
+			}
+			TUR_881 = { #Kastamonu
+				life_rating = 5
+				add_core = BYZ
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 4
+        }
+			}
+			TUR_884 = { #Trabzon
+				life_rating = 5
+				add_core = BYZ
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 3
+        }
+			}
+			TUR_894 = { #Adana
+				life_rating = 5
+				any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = greek
+          }
+          reduce_pop = 3
+        }
+			}
 		}
 	}
+
+	develop_turkish_armenia = {
+		potential = {
+			tag = BYZ
+		}
+		allow = {
+			owns = 894
+			owns = 878
+			owns = 891
+			owns = 888
+			owns = 886
+		}
+		effect = {
+			badboy = 2.5
+			TUR_894 = { #Adana
+        any_pop = {
+					limit = {
+            has_pop_culture = armenian
+          }
+          reduce_pop = 2
+        }
+			}
+			TUR_884 = { #Trabzon
+        any_pop = {
+					limit = {
+            has_pop_culture = armenian
+          }
+          reduce_pop = 2
+        }
+			}
+			TUR_889 = { #Diyarbakir-Van
+				add_core = BYZ
+				life_rating = 5
+        any_pop = {
+					limit = {
+            NOT = { has_pop_culture = armenian }
+						NOT = { has_pop_culture = greek }
+          }
+          reduce_pop = 0.5
+        }
+				any_pop = {
+					limit = {
+            has_pop_culture = armenian
+          }
+          reduce_pop = 2
+        }
+			}
+			TUR_885 = { #Kars
+				add_core = BYZ
+				life_rating = 5
+        any_pop = {
+					limit = {
+            NOT = { has_pop_culture = armenian }
+						NOT = { has_pop_culture = georgian }
+						NOT = { has_pop_culture = greek }
+          }
+          reduce_pop = 0.5
+        }
+				any_pop = {
+					limit = {
+						OR = {
+            	has_pop_culture = armenian
+							has_pop_culture = georgian
+						}
+          }
+          reduce_pop = 2
+        }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.9 }
+		}
+	}
+
+	develop_armenia_and_georgia = {
+		potential = {
+			tag = BYZ
+		}
+		allow = {
+			owns = 1090
+			owns = 1098
+		}
+		effect = {
+			badboy = 2.5
+			RUS_1090 = { #Georgia
+				add_core = BYZ
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = georgian }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = georgian
+          }
+          reduce_pop = 3
+        }
+			}
+			TUR_884 = { #Armenia
+				add_core = BYZ
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = georgian }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = armenian
+          }
+          reduce_pop = 3
+        }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.9 }
+		}
+	}
+
+	develop_albania = {
+		potential = {
+			OR = {
+				tag = BYZ
+				tag = YUG
+				tag = ALB
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 849
+			owns = 802
+		}
+		effect = {
+			badboy = 2.5
+			TUR_853 = { #Albania
+				add_core = THIS
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = albanian }
+					}
+					reduce_pop = 0.5
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = albanian
+					}
+					reduce_pop = 2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.9 }
+		}
+	}
+
+	develop_serbia_byz = {
+    potential = {
+      tag = BYZ
+    }
+    allow = {
+      nationalism_n_imperialism = 1
+      owns = 794
+      owns = 798
+      owns = 2583
+      owns = 2582
+    }
+    effect = {
+      badboy = 2.5
+      SER_794 = { #Serbia
+        life_rating = 5
+        any_pop = {
+					limit = {
+            NOT = { has_pop_culture = serb }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = serb
+          }
+          reduce_pop = 1.5
+        }
+      }
+      MON_2582 = { #Montenegro
+        life_rating = 5
+        any_pop = {
+					limit = {
+            NOT = { has_pop_culture = serb }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = serb
+          }
+          reduce_pop = 2
+        }
+      }
+    }
+    ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.9 }
+		}
+  }
 }

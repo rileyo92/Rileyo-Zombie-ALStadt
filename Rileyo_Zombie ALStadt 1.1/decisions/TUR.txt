@@ -140,14 +140,17 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			NOT = { has_country_flag = balkans_lost }
+			NOT = { has_country_flag = balkan_focus }
 		}
 		allow = {
-			NOT = { owns = 805 }
-			NOT = { owns = 849 }
-			NOT = { owns = 783 }
-			NOT = { owns = 809 }
+			OR = {
+				NOT = { owns = 830 }
+				NOT = { owns = 817 }
+				NOT = { owns = 860 }
+			}
 		}
 		effect = {
+			badboy = -10
 			TUR_832 = { remove_core = TUR } #Thessalia
 			TUR_805 = { remove_core = TUR } #South Macedonia
 			MON_2582 = { remove_core = TUR } #Montenegro
@@ -156,14 +159,72 @@ political_decisions = {
 			TUR_806 = { remove_core = TUR } #North Macedonia
 			TUR_810 = { remove_core = TUR } #Bulgaria
 			WAL_665 = { remove_core = TUR } #Wallachia
-			capital = 876
 			remove_accepted_culture = bosniak
 			remove_accepted_culture = bulgarian
 			remove_accepted_culture = albanian
 			add_accepted_culture = mashriqi
 			add_accepted_culture = azerbaijani
 			add_accepted_culture = bedouin
+			BUL = {
+        all_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = BUL
+        }
+        capital = 809
+      }
+			GRE = {
+        all_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = GRE
+        }
+        capital = 834
+      }
+			BOS = {
+        all_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = BOS
+        }
+        capital = 783
+      }
+			SER = {
+        all_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = SER
+        }
+        capital = 794
+      }
+			ALB = {
+        all_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = ALB
+        }
+        capital = 849
+      }
+			WAL = {
+        all_core = {
+          limit = {
+            owned_by = THIS
+          }
+          secede_province = WAL
+        }
+        capital = 664
+      }
+			capital = 876
+
 			set_country_flag = balkans_lost
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 
@@ -185,8 +246,6 @@ political_decisions = {
 			set_country_flag = balkan_focus
 			add_accepted_culture = greek
 			add_accepted_culture = serb
-			remove_accepted_culture = tatar
-			remove_accepted_culture = north_caucasian
 			SER_794 = { add_core = TUR }
 			MON_2582 = { add_core = TUR }
 			TUR_824 = { add_core = TUR }
@@ -249,11 +308,215 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = treaty_of_zuhab_refuted
-			badboy = 5
+			badboy = 2.5
 			prestige = 10
 			PER_1112 = { add_core = TUR }
 			PER_1122 = { add_core = TUR }
 			PER_1138 = { add_core = TUR }
+		}
+	}
+
+	reclaim_egypt = {
+		potential = {
+			tag = TUR
+			has_country_flag = balkans_lost
+			NOT = { has_country_flag = egypt_reclaimed }
+		}
+		allow = {
+			owns = 1745
+			owns = 1751
+			owns = 1763
+			owns = 1767
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			set_country_flag = egypt_reclaimed
+			EGY = { all_core = { add_core = THIS } }
+			add_accepted_culture = misri
+		}
+	}
+
+	consolidate_anatolia = {
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = anatolia_consolidated }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 860
+			owns = 863
+			owns = 869
+			owns = 875
+			owns = 880
+			owns = 878
+			owns = 894
+			owns = 882
+			owns = 886
+			owns = 893
+		}
+		effect = {
+			set_country_flag = anatolia_consolidated
+			badboy = 5
+			TUR_860 = { #Thrace
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.5
+        }
+			}
+			TUR_863 = { #Hudavendigar
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.25
+        }
+			}
+			TUR_869 = { #Aydin
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.25
+        }
+			}
+			TUR_873 = { #Konya
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.25
+        }
+			}
+			TUR_881 = { #Kastamonu-Ankara
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.25
+        }
+			}
+			TUR_894 = { #Adana
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.25
+        }
+			}
+			TUR_884 = { #Trabzon
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+						NOT = { has_pop_culture = armenian }
+          }
+          reduce_pop = 0.67
+        }
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = armenian }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.25
+        }
+			}
+			TUR_889 = { #Diyarbakir-Van
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+						NOT = { has_pop_culture = armenian }
+          }
+          reduce_pop = 0.67
+        }
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = armenian }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 2
+        }
+			}
+			TUR_885 = { #Kars
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = turkish }
+						NOT = { has_pop_culture = armenian }
+          }
+          reduce_pop = 0.67
+        }
+				any_pop = {
+					limit = {
+						NOT = { has_pop_culture = armenian }
+          }
+          reduce_pop = 0.33
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = turkish
+          }
+          reduce_pop = 1.25
+        }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.9 }
 		}
 	}
 }

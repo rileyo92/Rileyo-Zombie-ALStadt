@@ -122,6 +122,7 @@ political_decisions = {
 							has_pop_culture = norwegian
 							has_pop_culture = swedish
 							has_pop_culture = finnish
+							has_pop_culture = estonian
 						}
 					}
 					reduce_pop = 1.5

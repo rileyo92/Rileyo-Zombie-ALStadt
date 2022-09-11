@@ -233,8 +233,7 @@ political_decisions = {
 			473 = { add_core = THIS } #Corsica
 			854 = { add_core = THIS } #Malta
 			add_accepted_culture = maltese
-			add_accepted_culture = slovene
-			add_accepted_culture = croat
+			add_accepted_culture = corsican
 		}
 	}
 }

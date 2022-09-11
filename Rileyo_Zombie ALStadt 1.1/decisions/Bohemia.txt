@@ -46,7 +46,7 @@ political_decisions = {
           limit = {
             owned_by = THIS
           }
-          secede_province = BOH
+          secede_province = HUN
         }
         capital = 641
       }
@@ -98,5 +98,102 @@ political_decisions = {
       add_accepted_culture = polish
       set_country_flag = poles_in_czechia
     }
+  }
+
+  consolidate_czechoslovakia = {
+    potential = {
+      tag = CZH
+      NOT = { has_country_flag = germans_expelled }
+    }
+    allow = {
+      owns = 629
+      owns = 625
+      owns = 631
+      owns = 633
+      owns = 950
+      nationalism_n_imperialism = 1
+    }
+    effect = {
+      badboy = 5
+      AUS_627 = { #Sudetenland
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = czech }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = czech
+          }
+          reduce_pop = 1.75
+        }
+			}
+      AUS_625 = { #Bohemia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = czech }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = czech
+          }
+          reduce_pop = 1.25
+        }
+			}
+      AUS_626 = { #Moravia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = czech }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = czech
+          }
+          reduce_pop = 1.25
+        }
+			}
+      AUS_633 = { #Slovakia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = slovak }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = slovak
+          }
+          reduce_pop = 1.25
+        }
+			}
+      950 = { #Transcarpathia
+				life_rating = 5
+				any_pop = {
+					limit = {
+            NOT = { has_pop_culture = slovak }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = slovak
+          }
+          reduce_pop = 4
+        }
+			}
+    }
+    ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 badboy = 0.8 }
+		}
   }
 }
