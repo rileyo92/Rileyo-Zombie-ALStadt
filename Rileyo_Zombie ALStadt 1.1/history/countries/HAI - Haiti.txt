@@ -1,7 +1,9 @@
 capital = 2213
 primary_culture = afro_antillean
 culture = afro_caribeno
-culture = caribeno
+culture = afro_american
+culture = afro_brazilian
+culture = afro_caribbean
 religion = catholic
 government = presidential_dictatorship
 plurality = 25.1

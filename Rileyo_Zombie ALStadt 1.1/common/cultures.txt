@@ -980,18 +980,6 @@ iranian_turanian = {
 			Beg  Khan "Konanbai uli" "Kutebar uli" "Muhammad uli" "Qasim uli"
 			}
 	}
-	tajik = {
-		color = {122 127 111}
-			first_names = {
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali"
-			Mahmoud Mahsud Mirza Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin
-			Nadir "Naser ed-Din" Nosret Reza
-			}
-		last_names = {
-			Khan
-			}
-	}
 	pashtun = {
 		color = {199 151 230}
 		first_names = {
@@ -1016,15 +1004,6 @@ iranian_turanian = {
 		}
 		last_names = {
 			Khan
-		}
-	}
-	hazara = {
-		color = {172 120 211}
-		first_names = {
-			Ali Azim Jafar Mohammad Riza
-		}
-		last_names = {
-			Beg Khan
 		}
 	}
 	kurdish = {
@@ -1359,20 +1338,6 @@ oceanic = {
 		first_names = { Finau Ulukalala Taufa'ahau Tupou Taupe Havaiki Lika Longotahi Vaopuka "Te Taulu" Tavita Malietoa Iosefo William
 		}
 		last_names = { Ma'ufanga Feletoa Moengangongo Tuabayi Maeakafa "Te Fuli" Ielemia
-		}
-	}
-	maori = {
-		color = {95 14 187}
-		first_names = { Potatau Tukaroto Matutaera Tawhiao Mahuta "Te Rata" Koroki "Te Ata-i" Rangi-Kahu
-		}
-		last_names = { Wherowhero Kenena Raouparah Herangi Ataarangikaahu
-		}
-	}
-	aborigine = {
-		color = {78 24 92}
-		first_names = { Nemarluk Umbarra Wylie Yagan Tollamareena Pemulwy Mokare Derrimut Bennelong Billibellary
-		}
-		last_names = { Bunurong Lanne Noongar Mullagh Windich Wonga
 		}
 	}
 	melanesian = {
