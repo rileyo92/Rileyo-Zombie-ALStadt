@@ -114,6 +114,7 @@ political_decisions = {
       nationalism_n_imperialism = 1
     }
     effect = {
+      set_country_flag = germans_expelled
       badboy = 5
       AUS_627 = { #Sudetenland
 				life_rating = 5
