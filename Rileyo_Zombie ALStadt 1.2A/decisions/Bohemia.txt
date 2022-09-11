@@ -22,13 +22,14 @@ political_decisions = {
       capital = 625
       primary_culture = czech
       add_accepted_culture = slovak
-      add_accepted_culture = south_german
+      add_accepted_culture = polish
       add_accepted_culture = ashkenazi
       remove_accepted_culture = slovene
       remove_accepted_culture = hungarian
       remove_accepted_culture = croat
       remove_accepted_culture = swiss
-      badboy = -7.5
+      remove_accepted_culture = siebenbergen
+      badboy = -10
       AUS_770 = { add_core = HUN } #Istria
       AUS_768 = { add_core = HUN } #Slovenia
       AUS_736 = { add_core = HUN } #Trieste
@@ -45,6 +46,7 @@ political_decisions = {
         all_core = {
           limit = {
             owned_by = THIS
+            NOT = { is_core = CZH }
           }
           secede_province = HUN
         }
@@ -81,22 +83,6 @@ political_decisions = {
     }
     ai_will_do = {
       factor = 0
-    }
-  }
-
-  integrate_polish_czh = {
-    potential = {
-      tag = CZH
-      NOT = { has_country_flag = poles_in_czechia }
-    }
-    allow = {
-      owns = 703
-      owns = 702
-      nationalism_n_imperialism = 1
-    }
-    effect = {
-      add_accepted_culture = polish
-      set_country_flag = poles_in_czechia
     }
   }
 
