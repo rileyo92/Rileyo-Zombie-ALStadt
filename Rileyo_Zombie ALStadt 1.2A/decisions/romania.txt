@@ -29,6 +29,7 @@ political_decisions = {
       }
       MOL_673 = { #Moldova
         remove_core = RUS
+        remove_core = AUS
         life_rating = 5
         any_pop = {
 					limit = {

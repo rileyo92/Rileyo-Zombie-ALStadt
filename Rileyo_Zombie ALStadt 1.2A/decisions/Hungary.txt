@@ -60,6 +60,7 @@ political_decisions = {
         all_core = {
           limit = {
             owned_by = THIS
+            NOT = { is_core = HUN }
           }
           secede_province = VEN
         }
@@ -95,119 +96,6 @@ political_decisions = {
       add_accepted_culture = serb
       SER = { all_core = { add_core = HUN } }
       set_country_flag = serbs_in_hungary
-    }
-  }
-
-  consolidate_hungary = {
-    potential = {
-      tag = HUN
-      NOT = { has_country_flag = transylvania_consolidated }
-    }
-    allow = {
-      revolution_n_counterrevolution = 1
-      owns = 643
-      owns = 641
-      owns = 657
-      owns = 2533
-      owns = 950
-      owns = 2538
-    }
-    effect = {
-      badboy = 5
-      set_country_flag = transylvania_consolidated
-      AUS_623 = { #Transdanubia
-				life_rating = 5
-				any_pop = {
-					limit = {
-            NOT = { has_pop_culture = hungarian }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = hungarian
-          }
-          reduce_pop = 1.25
-        }
-			}
-      AUS_641 = { #Central Hungary
-				life_rating = 5
-				any_pop = {
-					limit = {
-            NOT = { has_pop_culture = hungarian }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = hungarian
-          }
-          reduce_pop = 1.25
-        }
-			}
-      AUS_777 = { #Slavonia
-				life_rating = 5
-				any_pop = {
-					limit = {
-            NOT = { has_pop_culture = hungarian }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = hungarian
-          }
-          reduce_pop = 2
-        }
-			}
-      AUS_657 = { #Southern Transylvania
-				life_rating = 5
-				any_pop = {
-					limit = {
-            NOT = { has_pop_culture = hungarian }
-            NOT = { has_pop_culture = siebenbergen }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = hungarian
-          }
-          reduce_pop = 2
-        }
-			}
-      AUS_654 = { #Northern Transylvania
-				life_rating = 5
-				any_pop = {
-					limit = {
-            NOT = { has_pop_culture = hungarian }
-            NOT = { has_pop_culture = siebenbergen }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = hungarian
-          }
-          reduce_pop = 1.5
-        }
-			}
-      950 = { #Transcarpathia
-				life_rating = 5
-				any_pop = {
-					limit = {
-            NOT = { has_pop_culture = hungarian }
-            NOT = { has_pop_culture = siebenbergen }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
-					limit = {
-            has_pop_culture = hungarian
-          }
-          reduce_pop = 1.5
-        }
-			}
     }
   }
 }
