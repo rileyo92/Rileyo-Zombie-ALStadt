@@ -16,6 +16,8 @@ political_decisions = {
     effect = {
       add_accepted_culture = tibetan
       add_accepted_culture = yi
+      add_accepted_culture = thai
+      add_accepted_culture = asian_minor
       ENG_1343 = { add_core = THIS }
       SIA_1355 = { add_core = THIS }
       ENG_1258 = { add_core = THIS }
@@ -43,11 +45,13 @@ political_decisions = {
     effect = {
       add_accepted_culture = burmese
       add_accepted_culture = khmer
+      add_accepted_culture = vietnamese
       add_accepted_culture = zhuang
       ENG_1343 = { add_core = THIS }
       ENG_1384 = { add_core = THIS }
       SIA_1366 = { add_core = THIS }
-      ANN_1383 = { add_core = THIS }
+      ANN_1383 = { add_core = THIS } #South Vietnam
+      ANN_1371 = { add_core = THIS } #North Vietnam
       LUA_1356 = { add_core = THIS }
       set_country_flag = greater_siam
     }
@@ -71,6 +75,7 @@ political_decisions = {
       add_accepted_culture = lao
       add_accepted_culture = khmer
       add_accepted_culture = yue
+      add_accepted_culture = zhuang
       SIA_1366 = { add_core = THIS }
       SIA_1358 = { add_core = THIS }
       LUA_1356 = { add_core = THIS }
@@ -85,6 +90,24 @@ political_decisions = {
 				annex_to = THIS
 			}
       set_country_flag = greater_dai_viet
+    }
+  }
+
+  integrate_manchuria_korea = {
+    potential = {
+      tag = KOR
+      NOT = { has_country_flag = manchuria_conquered }
+    }
+    allow = {
+      owns = 1555
+      owns = 1552
+    }
+    effect = {
+      MCK = { all_cores = { add_core = THIS } }
+      CHI_1479 = { life_rating = 5 }
+      CHI_1553 = { life_rating = 5 }
+      set_country_flag = manchuria_conquered
+      add_accepted_culture = manchu
     }
   }
 }

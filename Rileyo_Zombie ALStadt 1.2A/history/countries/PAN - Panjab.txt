@@ -24,12 +24,13 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "PAN_oob.txt"
-1861.1.1 = {
-	oob = "/1861/PAN_oob.txt"
-}
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
+foreign_officers = yes_foreign_officers
+military_constructions = yes_military_constructions
+admin_reform = yes_admin_reform
+
 flintlock_rifles = 1
 
 slavery = no_slavery

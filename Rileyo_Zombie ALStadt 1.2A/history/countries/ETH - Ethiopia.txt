@@ -46,6 +46,8 @@ school_reforms = no_schools
 #Military Reforms
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
+military_constructions = yes_military_constructions
+land_reform = yes_land_reform
 
 #Technologies
 flintlock_rifles = 1

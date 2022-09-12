@@ -236,4 +236,66 @@ political_decisions = {
 			add_accepted_culture = corsican
 		}
 	}
+
+	develop_adriatic = {
+		potential = {
+			tag = ITA
+			has_country_flag = italia_ulterior
+			NOT = { has_country_flag = developing_adriatic }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 736
+			owns = 778
+			owns = 782
+		}
+		effect = {
+			set_country_flag = italia_ulterior
+			AUS_780 = { #Dalmatia
+        life_rating = 5
+        any_pop = {
+					limit = {
+            NOT = { has_pop_culture = north_italian }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = north_italian
+          }
+          reduce_pop = 5
+        }
+      }
+			AUS_770 = { #Istria
+        life_rating = 5
+        any_pop = {
+					limit = {
+            NOT = { has_pop_culture = north_italian }
+          }
+          reduce_pop = 0.67
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = north_italian
+          }
+          reduce_pop = 2
+        }
+      }
+			AUS_736 = { #Istria
+        life_rating = 5
+        any_pop = {
+					limit = {
+            NOT = { has_pop_culture = north_italian }
+          }
+          reduce_pop = 0.5
+        }
+        any_pop = {
+					limit = {
+            has_pop_culture = north_italian
+          }
+          reduce_pop = 5
+        }
+      }
+		}
+	}
 }

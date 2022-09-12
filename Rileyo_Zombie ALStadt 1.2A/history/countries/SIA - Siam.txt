@@ -44,7 +44,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 #Military Reforms
-foreign_training = yes_foreign_training
+land_reform = yes_land_reform
 foreign_weapons = yes_foreign_weapons
 
 #Technologies
