@@ -31,8 +31,9 @@ finance_reform = yes_finance_reform
 
 # Technology
 flintlock_rifles = 1
-post_nelsonian_thought = 1
-private_banks = 1
+military_staff_system = 1
+post_napoleonic_thought = 1
+army_command_principle = 1
 
 # Starting Consciousness
 consciousness = 0

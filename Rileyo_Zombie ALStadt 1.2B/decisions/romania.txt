@@ -24,7 +24,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = romanian
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
       }
       MOL_673 = { #Moldova
@@ -42,11 +42,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = romanian
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
       }
       AUS_657 = { #Southern Transylvania
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = romanian }
@@ -59,11 +59,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = romanian
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
       }
       AUS_654 = { #Northern Transylvania
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = romanian }
@@ -76,7 +76,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = romanian
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
       }
     }

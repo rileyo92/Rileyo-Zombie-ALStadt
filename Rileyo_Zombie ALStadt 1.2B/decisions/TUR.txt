@@ -369,7 +369,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
 			}
 			TUR_863 = { #Hudavendigar
@@ -384,11 +384,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.2
         }
 			}
 			TUR_869 = { #Aydin
-				life_rating = 5
+				life_rating = 4
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = turkish }
@@ -399,11 +399,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.2
         }
 			}
 			TUR_873 = { #Konya
-				life_rating = 5
+				life_rating = 3
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = turkish }
@@ -414,11 +414,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.2
         }
 			}
 			TUR_881 = { #Kastamonu-Ankara
-				life_rating = 5
+				life_rating = 4
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = turkish }
@@ -429,11 +429,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.2
         }
 			}
 			TUR_894 = { #Adana
-				life_rating = 5
+				life_rating = 3
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = turkish }
@@ -444,11 +444,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.2
         }
 			}
 			TUR_884 = { #Trabzon
-				life_rating = 5
+				life_rating = 3
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = turkish }
@@ -458,7 +458,7 @@ political_decisions = {
         }
 				any_pop = {
 					limit = {
-						has_pop_culture = armenian 
+						has_pop_culture = armenian
           }
           reduce_pop = 0.33
         }
@@ -466,11 +466,10 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.2
         }
 			}
 			TUR_889 = { #Diyarbakir-Van
-				life_rating = 5
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = turkish }
@@ -488,11 +487,10 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			TUR_885 = { #Kars
-				life_rating = 5
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = turkish }
@@ -510,7 +508,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = turkish
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.2
         }
 			}
 		}

@@ -19,7 +19,7 @@ political_decisions = {
       set_global_flag = developing_serbia
       badboy = 2.5
       SER_794 = { #Serbia
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = serb }
@@ -30,11 +30,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = serb
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
       }
       MON_2582 = { #Montenegro
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = serb }
@@ -45,11 +45,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = serb
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
       }
       AUS_777 = { #Slavonia
-        life_rating = 5
+        life_rating = 2
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = serb }
@@ -60,7 +60,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = serb
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
       }
 
@@ -85,7 +85,7 @@ political_decisions = {
       set_country_flag = developing_croatia
       badboy = 2.5
       AUS_780 = { #Dalmatia
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = croat }
@@ -96,11 +96,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = croat
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
       }
       AUS_771 = { #Croatia
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = croat }
@@ -111,11 +111,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = croat
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
       }
       AUS_770 = { #Istria
-        life_rating = 5
+        life_rating = 2
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = croat }
@@ -126,7 +126,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = croat
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
       }
     }
@@ -149,7 +149,7 @@ political_decisions = {
       set_country_flag = developing_slovenia
       badboy = 2.5
       AUS_768 = { #Slovenia
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = slovene }
@@ -160,11 +160,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = slovene
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
       }
       AUS_736 = { #Trieste
-        life_rating = 5
+        life_rating = 2
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = slovene }
@@ -175,7 +175,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = slovene
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
       }
     }
@@ -202,7 +202,7 @@ political_decisions = {
       set_global_flag = developing_bulgaria
       badboy = 2.5
       TUR_806 = { #North Macedonia
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             has_pop_culture = turkish
@@ -213,11 +213,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = bulgarian
           }
-          reduce_pop = 1.75
+          reduce_pop = 1.6
         }
       }
       TUR_810 = { #Bulgaria
-        life_rating = 5
+        life_rating = 3
         any_pop = {
 					limit = {
             has_pop_culture = turkish
@@ -228,7 +228,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = bulgarian
           }
-          reduce_pop = 1.75
+          reduce_pop = 1.6
         }
       }
     }

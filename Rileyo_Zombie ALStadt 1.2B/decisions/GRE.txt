@@ -61,11 +61,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
 			}
 			EGY_843 = { #Aegan Islands
-				life_rating = 5
+				life_rating = 2
 				any_pop = {
 					limit = {
             has_pop_culture = turkish
@@ -76,11 +76,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			TUR_855 = { #Cyprus
-				life_rating = 5
+				life_rating = 3
 				any_pop = {
 					limit = {
             has_pop_culture = turkish
@@ -91,11 +91,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 3
+          reduce_pop = 2.6
         }
 			}
 			TUR_863 = { #Hudavendigar
-				life_rating = 5
+				life_rating = 4
 				add_core = GRE
 				any_pop = {
 					limit = {
@@ -107,11 +107,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 1.75
+          reduce_pop = 1.6
         }
 			}
 			TUR_869 = { #Aydin
-				life_rating = 5
+				life_rating = 4
 				add_core = GRE
 				any_pop = {
 					limit = {
@@ -123,7 +123,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 1.75
+          reduce_pop = 1.6
         }
 			}
 			860 = { #Istanbul/Constantinople
@@ -137,7 +137,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			861 = { #Uskudur
@@ -151,7 +151,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			set_country_flag = greece_has_got_a_brand_new_bag
@@ -206,7 +206,7 @@ political_decisions = {
 			MON_2582 = { add_core = BYZ } #Montenegro
 			SER_794 = { add_core = BYZ } #Serbia
 			TUR_873 = { #Konya
-				life_rating = 5
+				life_rating = 2
 				add_core = BYZ
 				any_pop = {
 					limit = {
@@ -218,11 +218,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 3
+          reduce_pop = 2.6
         }
 			}
 			TUR_881 = { #Kastamonu
-				life_rating = 5
+				life_rating = 3
 				add_core = BYZ
 				any_pop = {
 					limit = {
@@ -234,11 +234,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 4
+          reduce_pop = 3.4
         }
 			}
 			TUR_884 = { #Trabzon
-				life_rating = 5
+				life_rating = 3
 				add_core = BYZ
 				any_pop = {
 					limit = {
@@ -250,12 +250,12 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 3
+          reduce_pop = 2.6
         }
 			}
 			TUR_894 = { #Adana
 				add_core = GRE
-				life_rating = 5
+				life_rating = 3
 				any_pop = {
 					limit = {
             has_pop_culture = turkish
@@ -266,7 +266,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 3
+          reduce_pop = 2.6
         }
 			}
 		}
@@ -292,7 +292,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = armenian
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			TUR_884 = { #Trabzon
@@ -300,12 +300,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = armenian
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			TUR_889 = { #Diyarbakir-Van
 				add_core = BYZ
-				life_rating = 5
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = armenian }
@@ -317,12 +316,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = armenian
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			TUR_885 = { #Kars
 				add_core = BYZ
-				life_rating = 5
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = armenian }
@@ -338,7 +336,7 @@ political_decisions = {
 							has_pop_culture = georgian
 						}
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 		}
@@ -361,7 +359,7 @@ political_decisions = {
 			set_country_flag = caucuses_integration
 			badboy = 2.5
 			RUS_1090 = { #Georgia
-				life_rating = 5
+				life_rating = 2
 				add_core = BYZ
 				any_pop = {
 					limit = {
@@ -373,11 +371,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = georgian
           }
-          reduce_pop = 3
+          reduce_pop = 2.6
         }
 			}
 			RUS_1098 = { #Armenia
-				life_rating = 5
+				life_rating = 2
 				add_core = BYZ
 				any_pop = {
 					limit = {
@@ -389,7 +387,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = armenian
           }
-          reduce_pop = 3
+          reduce_pop = 2.6
         }
 			}
 		}
@@ -417,7 +415,7 @@ political_decisions = {
 			set_global_flag = albanian_reclamation
 			badboy = 2.5
 			TUR_853 = { #Albania
-				life_rating = 5
+				life_rating = 2
 				add_core = THIS
 				any_pop = {
 					limit = {
@@ -429,7 +427,7 @@ political_decisions = {
 					limit = {
 						has_pop_culture = albanian
 					}
-					reduce_pop = 1.5
+					reduce_pop = 1.4
 				}
 			}
 		}
@@ -455,7 +453,7 @@ political_decisions = {
 			set_country_flag = developing_serbia
       badboy = 2.5
       SER_794 = { #Serbia
-        life_rating = 5
+        life_rating = 2
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = serb }
@@ -466,11 +464,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = serb
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
       }
       MON_2582 = { #Montenegro
-        life_rating = 5
+        life_rating = 2
         any_pop = {
 					limit = {
             NOT = { has_pop_culture = serb }
@@ -481,7 +479,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = serb
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
       }
     }
@@ -514,21 +512,21 @@ political_decisions = {
 		effect = {
 			set_global_flag = developing_greece
 			TUR_824 = { #Ionian Islands
-				life_rating = 5
+				life_rating = 3
         any_pop = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
 			}
 			GRE_826 = { #Peloponnese
-				life_rating = 5
+				life_rating = 3
         any_pop = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			GRE_837 = { #Athens
@@ -537,11 +535,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 2
+          reduce_pop = 1.8
         }
 			}
 			TUR_832 = { #Thessalia
-				life_rating = 5
+				life_rating = 4
 				any_pop = {
 					limit = {
             has_pop_culture = turkish
@@ -552,11 +550,11 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
 			}
 			TUR_805 = { #South Macedonia
-				life_rating = 5
+				life_rating = 3
 				any_pop = {
 					limit = {
             has_pop_culture = turkish
@@ -567,7 +565,7 @@ political_decisions = {
 					limit = {
             has_pop_culture = greek
           }
-          reduce_pop = 1.5
+          reduce_pop = 1.4
         }
 			}
 		}

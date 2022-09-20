@@ -45,3 +45,5 @@ admin_reform = yes_admin_reform
 land_reform = yes_land_reform
 army_schools = yes_army_schools
 foreign_officers = yes_foreign_officers
+
+military_staff_system = 1
