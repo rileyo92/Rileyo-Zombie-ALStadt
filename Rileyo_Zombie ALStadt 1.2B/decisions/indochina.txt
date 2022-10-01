@@ -110,4 +110,35 @@ political_decisions = {
       add_accepted_culture = manchu
     }
   }
+
+  conquer_korea_japan = {
+    potential = {
+      tag = JAP
+      KOR = { ai = yes }
+      NOT = { has_country_flag = conquest_of_korea_japan }
+    }
+    allow = {
+      KOR = { exists = yes }
+      NOT = { truce_with = KOR }
+      war = no
+    }
+    effect = {
+      set_country_flag = conquest_of_korea_japan
+      badboy = 17.5
+      casus_belli = {
+				target = KOR
+				type = conquest
+				months = 24
+		 	}
+      war = {
+				target = KOR
+				attacker_goal = {
+					casus_belli = conquest
+				}
+			}
+		}
+    ai_will_do = {
+      factor = 0
+    }
+  }
 }
