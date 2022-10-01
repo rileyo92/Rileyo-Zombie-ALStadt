@@ -22,6 +22,61 @@
 # Rebalanced literacy and corrected non-accepted literacy issues
 # Added dominions of India and South Africa as playable mp nations
 # Chinese pops nerfed to 35% of vanilla pops but are more Consolidated
-# Scandinavia and American nations (not USA) gained pop buffs 
+# Scandinavia and American nations (not USA) gained pop buffs
 # Consolidated many states for it to be easier to recruit and take in peace deals
 #
+# 1.2 Changes
+#
+# Mechanical Changes
+#
+# Added a revanchism mechanic which increase both the promotion rate and solider caps above 10% revanchism
+# Increased the migration rate but reduced bias to certain nations
+# Infamy cost to truce break decreased to 5 infamy (was 12 infamy)
+#
+# CB Changes
+#
+# Minor Conquest CB base time to justify decreased to 300 days (was 400 days)
+# Conquest CB infamy cost decreased to 20 (was 22 infamy), base time to justify increased to 500 days (was 400 days)
+# Add to Sphere and Take from Sphere CBs infamy cost decreased to 3 (was 4 infamy)
+# Acquire Substate CB base time to justify decreased to 300 days (was 400 days)
+# Acquire State CB infamy cost decreased to 10 (was 11 infamy)
+# Take Capital CB base time to justify decreased to 500 days (was 800 days)
+# Free People CB infamy cost decreased to 6 (was 7.5 infamy)
+# Liberate Country CB infamy cost increased to 12.5 (was 11 infamy), base time to justify increased to 400 days (was 200 days)
+# Make (Medium) Puppet CB base time to justify increased to 300 days (was 200 days)
+# Humiliate CB infamy cost decreased to 3 (was 4 infamy)
+# Cut Down to Size CB infamy cost decreased to 12.5 (was 13 infamy)
+# Dismantle Fortifications CB infamy cost decreased to 3 (was 4 infamy)
+# Install and Dismantle Communism CB base time decreased to 150 days (was 200 days)
+# Demand Concession CB base time to justify reduced to 150 days (was 200 days)
+# Demand Capital Concession infamy cost decreased to 7.5 (was 10 infamy), base time to justify increased to 300 days (was 200 days)
+# Establish Protectorate CB base time to justify increased to 300 days (was 200 days)
+# Treaty Port CB base time to justify decreased to 150 days (was 200 days)
+#
+# Country-Specific Changes
+#
+# South Africa no longer accepts British
+# Haiti now accepts all afro cultures
+# Italy no longer can accept Slovenes and Croatians, instead gets decision to increase life rating and Italian pops in Dalmatia
+# Turkey can now accept Misri if it abandons the Balkans
+# Added decision for Romania to increase it's accepted pops
+# Yugoslavia now has only one formation decision and gained a decision to integrate Greece
+# Abandoning Austria for Czechoslovakia now reduces German pops in Czechoslovakia, gives Polish accepted immediately
+# Buffed Indochinese nations with more accepted pops via decision
+# Most major uncivilized nations now start with more reforms/techs
+# Eritrea is now owned and cored by Ethiopia instead of Egypt
+# Japan now has decision to gain a slightly discounted conquest wargoal on Korea if Korea is ai
+# Korea can now accept Manchu via decision
+# Greece Megali idea and form Byzantium decisions increase Greek pops in Anatolia at expense of Turkish pops, infamy reductions replaced with infamy penalties
+#
+# Map/Pop changes
+#
+# Hazara and Tajik cultures merged into Pashtun/Turkic
+# Moluccan merged into Melanesian
+# Added Corsican culture, accepted by both Italy and France
+# Brest and Pinsk states merged, fixed Luhansk/Kherson states
+# India no longer releasable
+# Estonian pops buffed
+# Vietnam reduced to 2 states from 3
+# Korea is now split up into 6 states instead of 4
+# Chinese states are more Consolidated

@@ -164,6 +164,7 @@ conquest = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 0.4 #500 days base
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
@@ -205,8 +206,6 @@ conquest = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-
-	construction_speed = 0.5
 
 	on_add = {
 		move_issue_percentage = {
@@ -268,6 +267,7 @@ add_to_sphere = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 1 #200 days base
 
 	badboy_factor = 1.5
 	prestige_factor = 2
@@ -313,6 +313,7 @@ take_from_sphere = {
 	sprite_index = 4
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 1 #200 days base
 
 	badboy_factor = 1.5
 	prestige_factor = 3
@@ -364,8 +365,7 @@ acquire_core_state = {
 	sprite_index = 5
 	is_triggered_only = yes
 	months = 12
-
-	construction_speed = 0.8
+	construction_speed = 2 #100 days base
 
 	badboy_factor = 0
 	prestige_factor = 5
@@ -463,7 +463,7 @@ acquire_substate_region = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.67 #300 day base
 	crisis = no
 
 	badboy_factor = 1
@@ -520,7 +520,7 @@ acquire_state = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.5 #400 day base
 
 	badboy_factor = 2
 	prestige_factor = 2
@@ -589,6 +589,7 @@ place_in_the_sun = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 1 #200 days base
 
 	badboy_factor = 1
 	prestige_factor = 2
@@ -679,6 +680,7 @@ cut_down_to_size = {
 	sprite_index = 8
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 1 #200 days base
 
 	badboy_factor = 1.25
 	prestige_factor = 1
@@ -759,6 +761,7 @@ free_peoples = {
 	sprite_index = 9
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 1 #200 days base
 
 	badboy_factor = 1.2
 	prestige_factor = 1
@@ -841,6 +844,7 @@ liberate_country = {
 	sprite_index = 15
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 0.5 #400 day base
 
 	badboy_factor = 2.5
 	prestige_factor = 1
@@ -923,6 +927,7 @@ dismantle_forts = {
 	sprite_index = 16
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 1 #200 days base
 
 	badboy_factor = 0.75
 	prestige_factor = 1
@@ -975,6 +980,7 @@ release_puppet = {
 	sprite_index = 10
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 1 #200 days base
 
 	badboy_factor = 1
 	prestige_factor = 1
@@ -1023,6 +1029,7 @@ make_puppet = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 0.67 #300 day base
 
 	badboy_factor = 2.0
 	prestige_factor = 1
@@ -1037,8 +1044,6 @@ make_puppet = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-
-	construction_speed = 0.67
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
@@ -1143,6 +1148,7 @@ humiliate = {
 	sprite_index = 11
 	is_triggered_only = yes
 	months = 12
+	construction_speed = 1 #200 day base
 
 	badboy_factor = 1.5
 	prestige_factor = 1
@@ -1182,7 +1188,7 @@ demand_concession_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 0
-	construction_speed = 1
+	construction_speed = 1.33 #150 day base
 	crisis = no
 
 	badboy_factor = 1
@@ -1235,7 +1241,7 @@ establish_protectorate_casus_belli = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 0
-	construction_speed = 1
+	construction_speed = 0.67 #300 day base
 	crisis = no
 
 	badboy_factor = 1
@@ -1531,7 +1537,7 @@ rude_boy = {
 	sprite_index = 11
 	is_triggered_only = no
 	months = 12
-	construction_speed = 2
+	construction_speed = 2 #100 day base
 	crisis = no
 
 	badboy_factor = 0
@@ -1576,6 +1582,7 @@ install_communist_gov_cb = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 1.33 #150 day base
 
 	badboy_factor = 1
 	prestige_factor = 1
@@ -1650,6 +1657,7 @@ uninstall_communist_gov_cb = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 1.33 #150 day base
 
 	# Is automatically added to countries that intervened at while install_communist_gov_cb
 	# so they can revert those countries government.
@@ -1745,6 +1753,7 @@ negotiated_transfer = {
 	is_triggered_only = yes
 	months = 0
 	crisis = no
+	construction_speed = 2000.0 #Instant
 
 	badboy_factor = 0
 	prestige_factor = 0
@@ -1759,8 +1768,6 @@ negotiated_transfer = {
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
-
-	construction_speed = 2000.0
 
 	can_use = {
 		number_of_states = 2 # annex if you want their last state
@@ -1792,6 +1799,7 @@ conquest_low = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 0.67 #300 day base
 
 	can_use = {
 		NOT = {	total_pops = 400000 }
@@ -1835,8 +1843,6 @@ conquest_low = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	construction_speed = 0.67
-
 	on_add = {
 		move_issue_percentage = {
 			from = jingoism
@@ -1854,7 +1860,7 @@ take_capital = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.33
+	construction_speed = 0.4 #500 day base
 
 	badboy_factor = 3
 	prestige_factor = 10
@@ -1928,7 +1934,7 @@ war_reparations = {
 	sprite_index = 1
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 1
+	construction_speed = 1 #200 day base
 
 	badboy_factor = 0.25
 	prestige_factor = 0.5
@@ -1973,6 +1979,7 @@ treaty_port_casus_belli = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 1.33 #150 day base
 
 	badboy_factor = 1
 	prestige_factor = 0.5
@@ -2071,7 +2078,7 @@ demand_concession_capital = {
 	sprite_index = 7
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.67
+	construction_speed = 0.67 #300 day base
 
 	badboy_factor = 1.5
 	prestige_factor = 2
@@ -2151,7 +2158,7 @@ demand_concession_capital = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	construction_speed = 1000.0
+	construction_speed = 1000.0 #Instant
 
 	can_use = {
 		is_independant = yes
@@ -2190,7 +2197,7 @@ seperate_truce = {
 	is_triggered_only = yes
 	months = 12
 
-	construction_speed = 0.8
+	construction_speed = 1 #200 day base
 
 	badboy_factor = 0
 	prestige_factor = 0
@@ -2229,7 +2236,7 @@ make_puppet_large = {
 	months = 12
 	crisis = no
 
-	construction_speed = 0.5
+	construction_speed = 0.5 #400 day base
 
 	badboy_factor = 5.0
 	prestige_factor = 1
@@ -2288,6 +2295,7 @@ make_puppet_small = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	construction_speed = 1 #200 day base
 
 	badboy_factor = 1
 	prestige_factor = 1
@@ -2302,8 +2310,6 @@ make_puppet_small = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
-
-	construction_speed = 1
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
