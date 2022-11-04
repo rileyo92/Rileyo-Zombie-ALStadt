@@ -33,8 +33,9 @@ global_liberal_agitation = {
 }
 
 potato_blight = {
-	population_growth = -0.02
-	pop_militancy_modifier = 0.01
+	population_growth = -0.015
+	pop_militancy_modifier = 0.02
+	immigrant_push = 1
 	icon = 20
 }
 
@@ -44,12 +45,16 @@ anti_jacobin_tract = {
 }
 
 cholera_epidemic_small = {
-	population_growth = -0.01
+	population_growth = -0.008
+	pop_militancy_modifier = 0.01
+	immigrant_push = 0.5
 	icon = 20
 }
 
 cholera_epidemic_big = {
-	population_growth = -0.02
+	population_growth = -0.015
+	pop_militancy_modifier = 0.02
+	immigrant_push = 1
 	icon = 20
 }
 
