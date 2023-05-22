@@ -197,12 +197,14 @@ political_decisions = {
 		potential = {
 			tag = ENG
 			AST = {
-				vassal_of = THIS
+				vassal_of = ENG
 				ai = yes
 			}
 			NOT = { year = 1848 }
 		}
-		allow = {}
+		allow = {
+			NOT = { year = 1848 }
+		}
 		effect = {
 			AST = { annex_to = THIS }
 			badboy = 10
@@ -216,12 +218,14 @@ political_decisions = {
 		potential = {
 			tag = ENG
 			SAF = {
-				vassal_of = THIS
+				vassal_of = ENG
 				ai = yes
 			}
 			NOT = { year = 1848 }
 		}
-		allow = {}
+		allow = {
+			NOT = { year = 1848 }
+		}
 		effect = {
 			SAF = { annex_to = THIS }
 			badboy = 5
@@ -235,12 +239,14 @@ political_decisions = {
 		potential = {
 			tag = ENG
 			CAN = {
-				vassal_of = THIS
+				vassal_of = ENG
 				ai = yes
 			}
 			NOT = { year = 1848 }
 		}
-		allow = {}
+		allow = {
+			NOT = { year = 1848 }
+		}
 		effect = {
 			CAN = { annex_to = THIS }
 			badboy = 10
