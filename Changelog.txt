@@ -85,3 +85,7 @@
 #
 # Removed duplicate port in Inverness
 # Dominion annexation decisions no longer show when the nation no longer exists
+#
+# 1.2.2 Changes
+#
+# Fixed Canada's Starting tech
