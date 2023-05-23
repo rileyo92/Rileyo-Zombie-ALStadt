@@ -80,3 +80,8 @@
 # Vietnam reduced to 2 states from 3
 # Korea is now split up into 6 states instead of 4
 # Chinese states are more Consolidated
+#
+# 1.2.1 Changes
+#
+# Removed duplicate port in Inverness
+# Dominion annexation decisions no longer show when the nation no longer exists
