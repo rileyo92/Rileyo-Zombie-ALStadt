@@ -89,3 +89,8 @@
 # 1.2.2 Changes
 #
 # Fixed Canada's Starting tech
+#
+# 1.2.3 Changes
+#
+# National Values have been halved in value
+# To compensate for this, Tier 3 Branch 4 in the military tech tree now gives 2% Mob Size
