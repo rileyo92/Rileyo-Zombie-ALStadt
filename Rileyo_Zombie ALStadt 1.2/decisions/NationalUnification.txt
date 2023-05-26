@@ -14,18 +14,14 @@ political_decisions = {
 			GER = {
 				all_core = {
 					OR = {
-						OR = {
-							owned_by = THIS
-							province_id = 370
-							province_id = 371
-							province_id = 410
-							province_id = 409
-							province_id = 412
-							owner = {
-								OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-								}
+						owned_by = THIS
+						province_id = 410 # Need not have Alsace-Lorraine
+						province_id = 409 # Need not have Alsace-Lorraine
+						province_id = 412 # Need not have Alsace-Lorraine
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
 							}
 						}
 						NOT = {
@@ -53,11 +49,18 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
+					NOT = { is_core = POL }
 					is_core = GER
+					
 				}
 				add_core = SGF
 			}
+			FRA_412 = { add_core = SGF } #Alsace-Lorraine
 			change_tag = SGF
+			BAV = { all_core = { remove_core = BAV } } #Bavaria
+			BAD = { all_core = { remove_core = BAD } }`#Baden
+			WUR = { all_core = { remove_core = WUR } }`#Wurttemberg
+			HES = { all_core = { remove_core = HES } } #Hesse-Darmstadt
 		}
 		ai_will_do = {
 			factor = 1
@@ -81,20 +84,16 @@ political_decisions = {
 			GER = {
 				all_core = {
 					OR = {
-						OR = {
-							province_id = 370 # Ignore Schleswig
-							province_id = 371 # Ignore Schleswig
-							province_id = 410 # Need not have Elsa�-Lothringen
-							province_id = 409 # Need not have Elsa�-Lothringen
-							province_id = 412 # Need not have Elsa�-Lothringen
-							owned_by = THIS
-							owner = {
-								OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-								}
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
 							}
 						}
+						province_id = 410 # Need not have Alsace-Lorraine
+						province_id = 409 # Need not have Alsace-Lorraine
+						province_id = 412 # Need not have Alsace-Lorraine
+						owned_by = THIS
 						NOT = {
 							culture = south_german
 						}
@@ -107,7 +106,10 @@ political_decisions = {
 			prestige = 10
 			any_country = {
 				limit = {
-					primary_culture = south_german
+					OR = {
+						primary_culture = south_german
+						primary_culture = north_german
+					}
 					OR = {
 						in_sphere = THIS
 						vassal_of = THIS
@@ -120,16 +122,13 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
-					OR = {
-						culture = south_german
-						province_id = 412
-					}
 					is_core = GER
-					NOT = {
-						is_core = AUS
-					}
+					NOT = { is_core = POL }
+					NOT = { is_core = SWI }
 				}
 				add_core = SGF
+				remove_core = AUS
+				remove_core = KUK
 			}
 			release_vassal = SGF
 			diplomatic_influence = {
@@ -155,13 +154,11 @@ political_decisions = {
 			GER = {
 				all_core = {
 					OR = {
-						OR = {
-							owned_by = THIS
-							owner = {
-								OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-								}
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
 							}
 						}
 						NOT = {
@@ -197,6 +194,24 @@ political_decisions = {
 				add_core = NGF
 			}
 			change_tag = NGF
+			ANH = { all_core = { remove_core = ANH } } #Anhalt
+			BRA = { all_core = { remove_core = BRA } } #Braunschweig
+			BRE = { all_core = { remove_core = BRE } } #Bremen
+			FRM = { all_core = { remove_core = FRM } } #Frankfurt
+			HAM = { all_core = { remove_core = HAM } } #Hamburg
+			HAN = { all_core = { remove_core = HAN } } #Hannover
+			HEK = { all_core = { remove_core = HEK } } #Hesse-Kassel
+			HOL = { all_core = { remove_core = HOL } } #Holstein
+			LIP = { all_core = { remove_core = LIP } } #Lippe-Detmold
+			LUB = { all_core = { remove_core = LUB } } #Lubeck
+			MEC = { all_core = { remove_core = LUB } } #Mecklenburg
+			NAS = { all_core = { remove_core = LUB } } #Nassau
+			OLD = { all_core = { remove_core = LUB } } #Oldenburg
+			COB = { all_core = { remove_core = LUB } } #Saxe-Coburg-Gotha
+			MEI = { all_core = { remove_core = LUB } } #Saxe-Meiningen
+			WEI = { all_core = { remove_core = LUB } } #Saxe-Weimar
+			SAX = { all_core = { remove_core = LUB } } #Saxony
+			PRU = { all_core = { remove_core = LUB } } #Prussia
 		}
 		ai_will_do = {
 			factor = 1
@@ -281,10 +296,10 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-								OR = {
-									in_sphere = THIS
-									vassal_of = THIS
-								}
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
 						}
 					}
 				}
@@ -293,14 +308,16 @@ political_decisions = {
 
 		effect = {
 			prestige = 20
-			change_tag = GER
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
-			THIS = {
+			add_accepted_culture = siebenbergen 
+			THIS = { #Austria-Hungary Balancing
 				limit = {
 					tag = KUK
 				}
 				remove_accepted_culture = hungarian
+				remove_accepted_culture = slovak
+				remove_accepted_culture = croat
 			}
 			any_country = {
 				limit = {
@@ -312,6 +329,8 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
+			change_tag = GER
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -324,7 +343,6 @@ political_decisions = {
 		news_desc_short = "form_italy_NEWS_SHORT"
 		potential = {
 			is_culture_group = italian
-
 			NOT = {
 				exists = ITA
 			}
