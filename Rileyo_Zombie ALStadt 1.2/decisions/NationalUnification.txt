@@ -51,15 +51,15 @@ political_decisions = {
 				limit = {
 					NOT = { is_core = POL }
 					is_core = GER
-					
+
 				}
 				add_core = SGF
 			}
 			FRA_412 = { add_core = SGF } #Alsace-Lorraine
 			change_tag = SGF
 			BAV = { all_core = { remove_core = BAV } } #Bavaria
-			BAD = { all_core = { remove_core = BAD } }`#Baden
-			WUR = { all_core = { remove_core = WUR } }`#Wurttemberg
+			BAD = { all_core = { remove_core = BAD } } #Baden
+			WUR = { all_core = { remove_core = WUR } } #Wurttemberg
 			HES = { all_core = { remove_core = HES } } #Hesse-Darmstadt
 		}
 		ai_will_do = {
@@ -310,7 +310,7 @@ political_decisions = {
 			prestige = 20
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
-			add_accepted_culture = siebenbergen 
+			add_accepted_culture = siebenbergen
 			THIS = { #Austria-Hungary Balancing
 				limit = {
 					tag = KUK
