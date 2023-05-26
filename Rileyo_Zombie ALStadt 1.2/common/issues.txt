@@ -384,22 +384,26 @@ social_reforms = {
 			minimum_wage = 0.20
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
+			poor_life_needs = -0.05
 		}
 		low_minimum_wage = {
 			minimum_wage = 0.40
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
+			poor_life_needs = -0.1
 		}
 		acceptable_minimum_wage = {
 			minimum_wage = 0.60
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
+			poor_life_needs = -0.15
 		}
 		good_minimum_wage = {
 			minimum_wage = 0.80
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			core_pop_militancy_modifier = -0.01
+			poor_life_needs = -0.2
 		}
 	}
 	work_hours = {
@@ -408,28 +412,28 @@ social_reforms = {
 		no_work_hour_limit = {
 		}
 		fourteen_hours = {
-			factory_throughput = -0.05
+			factory_throughput = -0.02
 			poor_luxury_needs = -0.05
 			middle_luxury_needs = -0.05
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		twelve_hours = {
-			factory_throughput = -0.10
+			factory_throughput = -0.05
 			poor_luxury_needs = -0.10
 			middle_luxury_needs = -0.10
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		ten_hours = {
-			factory_throughput = -0.15
+			factory_throughput = -0.07
 			poor_luxury_needs = -0.15
 			middle_luxury_needs = -0.15
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		eight_hours = {
-			factory_throughput = -0.20
+			factory_throughput = -0.10
 			poor_luxury_needs = -0.20
 			middle_luxury_needs = -0.20
 			administrative_multiplier = 4
@@ -527,22 +531,22 @@ social_reforms = {
 		no_health_care = {
 		}
 		trinket_health_care = {
-			global_population_growth = 0.001
+			factory_throughput = 0.02
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_health_care = {
-			global_population_growth = 0.001
+			factory_throughput = 0.05
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.002
+			factory_throughput = 0.07
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_health_care = {
-			global_population_growth = 0.002
+			factory_throughput = 0.10
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 			core_pop_militancy_modifier = -0.01
@@ -556,16 +560,19 @@ social_reforms = {
 		}
 		low_schools = {
 			education_efficiency_modifier = 0.1
+			global_assimilation_rate = 0.05
 			global_immigrant_attract = 0.02
 			administrative_multiplier = 1
 		}
 		acceptable_schools = {
 			education_efficiency_modifier = 0.15
+			global_assimilation_rate = 0.10
 			global_immigrant_attract = 0.03
 			administrative_multiplier = 2
 		}
 		good_schools = {
 			education_efficiency_modifier = 0.2
+			global_assimilation_rate = 0.15
 			global_immigrant_attract = 0.04
 			administrative_multiplier = 3
 			core_pop_militancy_modifier = -0.01
@@ -639,12 +646,13 @@ economic_reforms = {
 		next_step_only = yes
 		no_finance_reform = {
 			max_loan_modifier = -1.0 # no loan 4 u
-			global_pop_militancy_modifier = -0.005
+			global_pop_militancy_modifier = -0.01
 		}
 		yes_finance_reform = {
 			technology_cost = 10000
 			tax_efficiency = 0.1
 			civilization_progress_modifier = 0.15
+			global_pop_militancy_modifier = -0.005
 			max_loan_modifier = -1.0 # no loan 4 u
 			
 			on_execute = {
@@ -668,7 +676,7 @@ economic_reforms = {
 		}
 		finance_reform_two = {
 			technology_cost = 15000
-			tax_efficiency = 0.1
+			tax_efficiency = 0.2
 			civilization_progress_modifier = 0.35
 			
 			max_loan_modifier = -0.2 # 80% loans
@@ -834,7 +842,7 @@ military_reforms = {
 	foreign_training = {
 		
 		no_foreign_training = {
-					global_pop_militancy_modifier = -0.005
+			global_pop_militancy_modifier = -0.005
 		}
 		yes_foreign_training = {
 			#unit stats improve	
@@ -997,7 +1005,7 @@ military_reforms = {
 	}	
 	foreign_naval_officers = {
 		no_foreign_naval_officers = {
-				global_pop_militancy_modifier = -0.005
+			global_pop_militancy_modifier = -0.005
 		}
 		yes_foreign_naval_officers = {
 			tariff_efficiency_modifier = 0.2
