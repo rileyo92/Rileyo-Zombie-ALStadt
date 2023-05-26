@@ -15,11 +15,10 @@ party_issues = {
 	economic_policy = {
 		laissez_faire = {
 			max_tax = 0.6
-			global_immigrant_attract = 0.01  #go where my stuff wont be stolen by the state
 			factory_owner_cost = 0.3
-			factory_output = 0.15
-			factory_input = -0.15
-			import_cost = -0.25
+			factory_output = 0.10
+			factory_input = -0.10
+			import_cost = -0.20
 			
 			rules = {
 				build_factory = no
@@ -149,26 +148,27 @@ party_issues = {
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
 			mobilization_impact = 4
-			org_regain = 0.5
+			org_regain = 0.2
 			reinforce_speed = 0.2
-			global_immigrant_attract = -0.05
+			global_immigrant_attract = -0.02
 		}
 		pro_military = {
 			max_military_spending = 1.0
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
 			mobilization_impact = 3
-			org_regain = 0.25
+			org_regain = 0.1
 			reinforce_speed = 0.1
-			global_immigrant_attract = -0.02
+			global_immigrant_attract = -0.01
 		}
 		anti_military = {
 			max_military_spending = 0.8
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.2
 			mobilization_impact = 2
-			org_regain = -0.25
+			org_regain = -0.1
 			reinforce_speed = -0.1
+			global_immigrant_attract = 0.01
 			
 		}
 		pacifism = {
@@ -176,8 +176,9 @@ party_issues = {
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.3
 			mobilization_impact = 1
-			org_regain = -0.5
+			org_regain = -0.2
 			reinforce_speed = -0.2
+			global_immigrant_attract = 0.02
 		}
 	}
 }
@@ -246,6 +247,7 @@ political_reforms = {
 			poor_vote = 1
 			
 			global_immigrant_attract = 0.05
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 	
@@ -302,6 +304,7 @@ political_reforms = {
 			issue_change_speed = 1
 			global_immigrant_attract = 0.01
 			suppression_points_modifier = -0.25
+			core_pop_militancy_modifier = -0.01
 		}
 
 	}
@@ -320,6 +323,7 @@ political_reforms = {
 			issue_change_speed = 0.5
 			global_immigrant_attract = 0.02
 			suppression_points_modifier = -0.25
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 	trade_unions = {
@@ -338,6 +342,7 @@ political_reforms = {
 		all_trade_unions = {
 			social_reform_desire = 0.3
 			global_immigrant_attract = 0.03
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 	
@@ -361,6 +366,7 @@ political_reforms = {
 		}
 		secret_ballots = {
 			global_immigrant_attract = 0.05
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 }
@@ -393,6 +399,7 @@ social_reforms = {
 			minimum_wage = 0.80
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 	work_hours = {
@@ -427,6 +434,7 @@ social_reforms = {
 			middle_luxury_needs = -0.20
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 	safety_regulations = {
@@ -465,6 +473,7 @@ social_reforms = {
 			poor_everyday_needs = -0.20
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 	
@@ -487,6 +496,7 @@ social_reforms = {
 		good_subsidies = {
 			unemployment_benefit = 1.0
 			global_immigrant_attract = 0.04
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 	pensions = {
@@ -508,6 +518,7 @@ social_reforms = {
 		good_pensions = {
 			pension_level	= 0.20
 			global_immigrant_attract = 0.04
+			core_pop_militancy_modifier = -0.01
 		}
 	}	
 	health_care = {
@@ -516,24 +527,25 @@ social_reforms = {
 		no_health_care = {
 		}
 		trinket_health_care = {
-			global_population_growth = 0.002
+			global_population_growth = 0.001
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_health_care = {
-			global_population_growth = 0.004
+			global_population_growth = 0.001
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.006
+			global_population_growth = 0.002
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_health_care = {
-			global_population_growth = 0.008
+			global_population_growth = 0.002
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
+			core_pop_militancy_modifier = -0.01
 		}
 	}
 
@@ -556,6 +568,7 @@ social_reforms = {
 			education_efficiency_modifier = 0.2
 			global_immigrant_attract = 0.04
 			administrative_multiplier = 3
+			core_pop_militancy_modifier = -0.01
 		}
 	}	
 }
