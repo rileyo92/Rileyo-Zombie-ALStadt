@@ -449,6 +449,7 @@ political_decisions = {
 				tag = SGF
 				tag = GER
 				tag = AUS
+				tag = KUK
 			}
 			NOT = { has_country_flag = sgf_swiss_coquered }
 		}

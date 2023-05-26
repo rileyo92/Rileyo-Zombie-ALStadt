@@ -80,3 +80,37 @@
 # Vietnam reduced to 2 states from 3
 # Korea is now split up into 6 states instead of 4
 # Chinese states are more Consolidated
+#
+# 1.2.1 Changes
+#
+# Removed duplicate port in Inverness
+# Dominion annexation decisions no longer show when the nation no longer exists
+#
+# 1.2.2 Changes
+#
+# Fixed Canada's Starting tech
+#
+# 1.3 Changes
+#
+# National Values have been halved in value
+# To compensate for this, Tier 3 Branch 4 in the military tech tree now gives 2% Mob Size
+# Base Immigration rate increased by 20%
+#
+# Government Changes:
+# Laissez Faire - Maximum Taxes increased to 60% from 50%
+# Laissez faire - Now also gives 10% Factory output and -10% Factory Imput
+# Laissez Faire - Now also gives -20% Import Cost
+# Limited Citizenship - Assimilation bonus reduced to 5% from 10% but now also give 1% Immigration Attraction
+# Full Citizenship - Assimilation bonus reduced to 10% from 25% but now also gives 2% Immigration Attraction
+# Jingoism - Reinforce Speed bonus reduced to 20% from 50%
+# Jingoism - Now also gives -2% Immigrant Attraction
+# Pro-Military- Reinforce Speed bonus reduced to 10% from 25%
+# Pro-Military - Now also gives -1% Immigrant Attraction
+# Anti-Military - Maximum military spending limit increased to 80% from 75%
+# Anti-Military - Supply consumption -25% removed, reinforce speed debuff reduced to -10% from -25%
+# Anti-Military - Now also gives 1% Immigrant Attraction
+# Pacifist - Maximum military spending limit increased to 60% from 50%
+# Pacifist - War Justification speed debuff decreased to -30% from -40%
+# Pacifist - Removed Army Consumption -50%
+# Pacifist - Now also gives 2% Immigrant Attraction
+# Pacifist - Reinforce Speed debuff decreased to -20% from -50%

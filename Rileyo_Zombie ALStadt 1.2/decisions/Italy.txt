@@ -250,52 +250,52 @@ political_decisions = {
 			owns = 782
 		}
 		effect = {
-			set_country_flag = italia_ulterior
+			set_country_flag = developing_adriatic
 			AUS_780 = { #Dalmatia
-        life_rating = 5
-        any_pop = {
+				life_rating = 5
+				any_pop = {
 					limit = {
-            NOT = { has_pop_culture = north_italian }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
+						NOT = { has_pop_culture = north_italian }
+					}
+					reduce_pop = 0.5
+				}
+				any_pop = {
 					limit = {
-            has_pop_culture = north_italian
-          }
-          reduce_pop = 5
-        }
-      }
+						has_pop_culture = north_italian
+					}
+					reduce_pop = 5
+				}
+			}
 			AUS_770 = { #Istria
-        life_rating = 5
-        any_pop = {
+				life_rating = 5
+				any_pop = {
 					limit = {
-            NOT = { has_pop_culture = north_italian }
-          }
-          reduce_pop = 0.67
-        }
-        any_pop = {
+						NOT = { has_pop_culture = north_italian }
+					}
+					reduce_pop = 0.67
+				}
+				any_pop = {
 					limit = {
-            has_pop_culture = north_italian
-          }
-          reduce_pop = 2
-        }
-      }
+						has_pop_culture = north_italian
+					}
+					reduce_pop = 2
+				}
+			}
 			AUS_736 = { #Istria
-        life_rating = 5
-        any_pop = {
+				life_rating = 5
+				any_pop = {
 					limit = {
-            NOT = { has_pop_culture = north_italian }
-          }
-          reduce_pop = 0.5
-        }
-        any_pop = {
+						NOT = { has_pop_culture = north_italian }
+					}
+					reduce_pop = 0.5
+				}
+				any_pop = {
 					limit = {
-            has_pop_culture = north_italian
-          }
-          reduce_pop = 5
-        }
-      }
+						has_pop_culture = north_italian
+					}
+					reduce_pop = 5
+				}
+			}
 		}
 	}
 }
