@@ -36,9 +36,7 @@ political_decisions = {
       KAL_1221 = { add_core = PER } #Baluchistan
       BUK_1207 = { add_core = PER } #Tajikistan
       RUS_1196 = { add_core = PER } #Turkmenistan
-      add_accepted_culture = tajik
       add_accepted_culture = pashtun
-      add_accepted_culture = hazara
       add_accepted_culture = kazak
     }
   }

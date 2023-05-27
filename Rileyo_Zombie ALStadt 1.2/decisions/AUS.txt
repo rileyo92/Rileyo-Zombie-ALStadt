@@ -243,11 +243,25 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			owns = 599 #Munich
-			owns = 589 #Stuttgart
-			owns = 595 #Nuremberg
-			owns = 588 #Konstanz
-			owns = 682 #Breslau
+			GER = {
+				all_core = {
+					OR = {
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+						province_id = 410 # Need not have Alsace-Lorraine
+						province_id = 409 # Need not have Alsace-Lorraine
+						province_id = 412 # Need not have Alsace-Lorraine
+						owned_by = THIS
+						NOT = {
+							culture = south_german
+						}
+					}
+				}
+			}
 		}
 		effect = {
 			#SGF Side

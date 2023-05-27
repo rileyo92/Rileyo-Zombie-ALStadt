@@ -109,7 +109,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = population_setup_buffs_done
 
-			#New World pop buffs
+			#New World/Scandinavia pop buffs
 			any_country = {
 				any_pop = {
 					limit = {
@@ -132,6 +132,7 @@ political_decisions = {
 					limit = {
 						OR = {
 							has_pop_culture = estonian
+							has_pop_culture = ugrian
 							has_pop_culture = brazilian
               has_pop_culture = afro_brazilian
 							has_pop_culture = central_american
