@@ -4,7 +4,7 @@ dravidian;Dravidian;;;;;;;;;;;;;;x
 indo_aryian;Indo-Aryian;;;;;;;;;;;;;;x
 nanfaren;Han;;;;;;;;;;;;;;x
 kazak;Turkic;;;;;;;;;;;;;;x
-siebenbergen;Siebenbürger;;;;;;;;;;;;;;x
+siebenbergen;Siebenbï¿½rger;;;;;;;;;;;;;;x
 afro_asiatic;Afro-Asiatic;;;;;;;;;;;;;;x
 nilo_saharan;Nilo-Saharan;;;;;;;;;;;;;;x
 bantu;Bantu;;;;;;;;;;;;;;x
@@ -81,7 +81,8 @@ ENG_271;Scotland;;;;;;;;;;;;;;x
 ENG_258;Connacht;;;;;;;;;;;;;;x
 ENG_263;Leinster;;;;;;;;;;;;;;x
 FRA_464;Pyrennes;;;;;;;;;;;;;;x
-FRA_451;Rhone-Auvergne;;;;;;;;;;;;;;x
+FRA_451;Rhone;;;;;;;;;;;;;;x
+FRA_448;Auvergne;;;;;;;;;;;;;;x
 FRA_399;Hauts-de-France;;;;;;;;;;;;;;x
 FRA_467;Provence-Languedoc;;;;;;;;;;;;;;x
 FRA_473;Corsica;;;;;;;;;;;;;;x
@@ -98,6 +99,7 @@ BEL_395;Liege;;;;;;;;;;;;;;x
 BEL_388;Vlaanderen;;;;;;;;;;;;;;x
 BEL_390;Antwerp;;;;;;;;;;;;;;x
 NET_382;Gelderland;;;;;;;;;;;;;;x
+NET_381;Brabant;;;;;;;;;;;;;;x
 SWI_603;Switzerland;;;;;;;;;;;;;;x
 SWI_605;Romandie;;;;;;;;;;;;;;x
 SWI_2568;Lugano;;;;;;;;;;;;;;x
