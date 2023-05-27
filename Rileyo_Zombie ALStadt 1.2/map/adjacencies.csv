@@ -16,13 +16,13 @@
 2123;2124;sea;2902;0;Comoros-Mayotte
 
 #
-# European Straits  
+# European Straits
 #
 254;271;sea;2737;0;Irish Strait
 324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
 334;372;sea;0;0;Öresund
 335;374;sea;2710;0;Bornholmsfärjan
-348;345;sea;2706;0;Aland Strait #Aland to Turku 
+348;345;sea;2706;0;Aland Strait #Aland to Turku
 353;349;sea;2709;0;Öselsund
 353;358;sea;2709;0;Strait of Riga
 372;373;sea;0;0;Fyn-Sjaelland
@@ -104,10 +104,26 @@
 1328;1592;impassable;0;0;scary mountain
 1225;1594;impassable;0;0;scary mountain
 1226;1594;impassable;0;0;scary mountain
+720;471;impassable;0;0;scary mountain
+720;454;impassable;0;0;scary mountain
+722;605;impassable;0;0;scary mountain
+722;606;impassable;0;0;scary mountain
+722;2568;impassable;0;0;scary mountain
+727;2568;impassable;0;0;scary mountain
+727;611;impassable;0;0;scary mountain
+727;735;impassable;0;0;scary mountain
+727;734;impassable;0;0;scary mountain
+728;734;impassable;0;0;scary mountain
+615;732;impassable;0;0;scary mountain
+615;613;impassable;0;0;scary mountain
+769;618;impassable;0;0;scary mountain
+611;612;impassable;0;0;scary mountain
+611;735;impassable;0;0;scary mountain
+617;620;impassable;0;0;scary mountain
 
 
 #
-# The canals  
+# The canals
 #
 3249;2721;canal;369;1;Kiel Canal
 2781;2769;canal;1755;2;Suez Canal
