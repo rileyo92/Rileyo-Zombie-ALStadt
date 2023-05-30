@@ -265,6 +265,19 @@ political_decisions = {
 		}
 		effect = {
 			#SGF Side
+			any_country = {
+				limit = {
+					primary_culture = south_german
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
 			prestige = 20
 			change_tag = SGF
 			add_accepted_culture = north_german
@@ -275,6 +288,7 @@ political_decisions = {
 			FRA_412 = { add_core = THIS } #Alsace-Lorraine
 			HES_2560 = { add_core = THIS } #Palatinate
 			PRU_682 = { add_core = THIS } #Silesia
+			
 			AUS_704 = { remove_core = THIS } #West Galicia
 			AUS_702 = { remove_core = THIS } #East Galicia
 			MOL_673 = { remove_core = THIS } #Moldova
