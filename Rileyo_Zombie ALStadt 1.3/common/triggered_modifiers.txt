@@ -8,7 +8,6 @@ money_hoarder_CHI_1 = {
 		exists = yes
 		money = 500000
 		OR = {
-			primary_culture = beifaren
 			primary_culture = nanfaren
 			primary_culture = manchu
 		}
@@ -23,7 +22,6 @@ money_hoarder_CHI_2 = {
 		exists = yes
 		money = 1000000
 		OR = {
-			primary_culture = beifaren
 			primary_culture = nanfaren
 			primary_culture = manchu
 		}
@@ -38,7 +36,6 @@ money_hoarder_CHI_3 = {
 		exists = yes
 		money = 1500000
 		OR = {
-			primary_culture = beifaren
 			primary_culture = nanfaren
 			primary_culture = manchu
 		}
@@ -53,7 +50,6 @@ money_hoarder_CHI_4 = {
 		exists = yes
 		money = 2000000
 		OR = {
-			primary_culture = beifaren
 			primary_culture = nanfaren
 			primary_culture = manchu
 		}

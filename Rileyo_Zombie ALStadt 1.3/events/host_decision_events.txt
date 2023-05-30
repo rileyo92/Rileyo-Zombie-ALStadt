@@ -17,7 +17,7 @@ country_event = {
 	desc = "Host nation status has been transferred to you"
 	picture = "greatpowers"
 	is_triggered_only = yes
-	
+
 	immediate = {
 		UTI = {
 			country_event = 999990
@@ -37,12 +37,12 @@ country_event = {
 	desc = "ur kicked"
 	picture = "greatpowers"
 	is_triggered_only = yes
-	
+
 	immediate = {
 		add_country_modifier = {
-		name = youre_kicked_mate
-		duration = -1
-}
+			name = youre_kicked_mate
+			duration = -1
+		}
 	}
 
 	option = {
@@ -55,7 +55,7 @@ country_event = {
 	desc = "You will be unsieged"
 	picture = "greatpowers"
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_owned = {
 			limit = {
@@ -75,18 +75,16 @@ country_event = {
 	desc = "You will siege your enemies"
 	picture = "greatpowers"
 	is_triggered_only = yes
-	
+
 	immediate = {
 		any_country = {
 			limit = {
-				AND = {
-					NOT = { tag = FROM }
-					NOT = { military_access = FROM }
-				}
+				NOT = { tag = FROM }
+				NOT = { military_access = FROM }
 			}
 			any_owned = {
 				change_controller = THIS
-			}			
+			}
 		}
 		clr_country_flag = siege_country
 	}

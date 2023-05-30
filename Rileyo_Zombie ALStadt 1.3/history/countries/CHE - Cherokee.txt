@@ -1,5 +1,5 @@
 capital = 143
-primary_culture = cherokee
+primary_culture = native_american_minor
 religion = animist
 government = democracy
 plurality = 5.0
@@ -32,7 +32,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = low_schools
 
 1861.1.1 = {

@@ -9,7 +9,6 @@ literacy = 0.15
 non_state_culture_literacy = 0.02
 civilized = yes
 prestige = 10
-colonial_points = 40
 
 # Political reforms
 slavery = yes_slavery
