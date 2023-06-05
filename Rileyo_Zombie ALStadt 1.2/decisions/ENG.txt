@@ -196,14 +196,15 @@ political_decisions = {
 	annex_australia = {
 		potential = {
 			tag = ENG
+			AST = {	exists = yes }
+			NOT = { year = 1846 } #So the decision disappears after time is up
+		}
+		allow = {
+			NOT = { year = 1846 } #So the time restraint is readable by the player
 			AST = {
 				vassal_of = ENG
 				ai = yes
 			}
-			NOT = { year = 1848 }
-		}
-		allow = {
-			NOT = { year = 1848 }
 		}
 		effect = {
 			AST = { annex_to = THIS }
@@ -217,14 +218,15 @@ political_decisions = {
 	annex_south_africa = {
 		potential = {
 			tag = ENG
+			SAF = {	exists = yes }
+			NOT = { year = 1846 } #So the decision disappears after time is up
+		}
+		allow = {
+			NOT = { year = 1846 } #So the time restraint is readable by the player
 			SAF = {
 				vassal_of = ENG
 				ai = yes
 			}
-			NOT = { year = 1848 }
-		}
-		allow = {
-			NOT = { year = 1848 }
 		}
 		effect = {
 			SAF = { annex_to = THIS }
@@ -238,14 +240,15 @@ political_decisions = {
 	annex_canada = {
 		potential = {
 			tag = ENG
+			CAN = {	exists = yes }
+			NOT = { year = 1846 } #So the decision disappears after time is up
+		}
+		allow = {
+			NOT = { year = 1846 } #So the time restraint is readable by the player
 			CAN = {
 				vassal_of = ENG
 				ai = yes
 			}
-			NOT = { year = 1848 }
-		}
-		allow = {
-			NOT = { year = 1848 }
 		}
 		effect = {
 			CAN = { annex_to = THIS }
