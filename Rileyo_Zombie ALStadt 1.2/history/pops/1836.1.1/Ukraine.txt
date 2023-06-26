@@ -93,37 +93,37 @@
 	}
 
 	bureaucrats = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 35
 	}
 
 	officers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 40  
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50 
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25   
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 2650   
 	}
@@ -413,25 +413,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25  
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 75
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25  
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 875  
 	}
@@ -555,25 +555,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 1825
 	}
@@ -659,25 +659,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 10
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 920
 	}
@@ -763,25 +763,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 10
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 920
 	}
@@ -867,25 +867,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 10
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 920
 	}
@@ -1089,25 +1089,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 850
 	}
@@ -2017,25 +2017,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 15
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 75
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 885
 	}
@@ -2205,25 +2205,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 125
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 1800
 	}
@@ -2437,25 +2437,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 75
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 875
 	}
@@ -2657,25 +2657,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 1175
 	}
@@ -2907,25 +2907,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 150
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 2775
 	}
@@ -3473,25 +3473,25 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 75
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = south_german
+		culture = siebenbergen
 		religion = catholic
 		size = 875
 	}
