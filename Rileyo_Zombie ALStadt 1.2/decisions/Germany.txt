@@ -419,6 +419,7 @@ political_decisions = {
 		potential = {
 			tag = GER
 			NOT = { has_country_flag = greater_germany }
+			NOT = { has_country_flag = sgf_austria }
 		}
 		allow = {
 			owns = 629
@@ -427,10 +428,10 @@ political_decisions = {
 		}
 		effect = {
 			badboy = 7.5
-			AUS_627 = { add_core = GER }
-			AUS_612 = { add_core = GER }
-			AUS_619 = { add_core = GER }
-			AUS_734 = { add_core = GER }
+			AUS_627 = { add_core = GER } #Sudetenland
+			AUS_612 = { add_core = GER } #Lower Austria
+			AUS_619 = { add_core = GER } #Upper Austria
+			AUS_734 = { add_core = GER } #South Tyrol
 			prestige = 25
 			set_country_flag = greater_germany
 		}
