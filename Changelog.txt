@@ -16,7 +16,7 @@
 # Geneva convention gives -0.05 infamy decay but is removed by gas attack
 # Consolidated several cultures in india, central asia, south america and africa
 # Added Galician culture in Spain and Siebenbrugen in Romania
-# Brought over assimilation and colonial migration from Igor Puir
+# Brought over assimilation and colonial migration from IGOR Puir
 # Altered immigration to make it more balanced for America and allows non-American countries to attract primary culture pops
 # Added decisions for all main mp nations that give cores and/or accepted pops
 # Rebalanced literacy and corrected non-accepted literacy issues
@@ -90,27 +90,50 @@
 #
 # Fixed Canada's Starting tech
 #
-# 1.3 Changes
+# 1.3 Main Changes
 #
 # National Values have been halved in value
 # To compensate for this, Tier 3 Branch 4 in the military tech tree now gives 2% Mob Size
 # Base Immigration rate increased by 20%
+# Adjusted how Austria and Austria-Hungary form Germany, slightly improved Czechoslovakia escape option and Askhenazi are now not assimilated when forming but are accepted
+# Forming NGF or SGF as NOT Austria now removes the smaller nations cores to try to remove the nationalist rebels for each country rising up piecemeal
+# Austria no longer starts with cores on the Hungarian half of their empire. These cores are gained through forming Austria-Hungary instead
+# Most South Germans pops in Carpathia now replaced with Siebenbergen pops
+# Forming Germany now accepts Siebenbergen pops
+# Fixed Spelling Mistakes and other localization mistakes.
+# Added or altered impassable borders in Alps, Pyrenees, Carpathians, Caucuses and Himalayas
+# Arunachal Pradesh moved to Assam State
+# Rhone-Auvergne split back into two states
+# Starting pop buffs now affect Caribbean, Baltic and Ugrian pops more
+# Russian pops lowered by 2% to counter the extra accepted and total starting pops from the update
+# Austria-Hungary no longer accepts Croatian
 #
 # Government Changes:
+#
 # Laissez Faire - Maximum Taxes increased to 60% from 50%
-# Laissez faire - Now also gives 10% Factory output and -10% Factory Imput
+# Laissez faire - Now also gives 10% Factory output and -10% Factory Input
 # Laissez Faire - Now also gives -20% Import Cost
 # Limited Citizenship - Assimilation bonus reduced to 5% from 10% but now also give 1% Immigration Attraction
 # Full Citizenship - Assimilation bonus reduced to 10% from 25% but now also gives 2% Immigration Attraction
 # Jingoism - Reinforce Speed bonus reduced to 20% from 50%
 # Jingoism - Now also gives -2% Immigrant Attraction
+# Jingoism - Organization Regain Speed reduced to 20% from 50%
 # Pro-Military- Reinforce Speed bonus reduced to 10% from 25%
 # Pro-Military - Now also gives -1% Immigrant Attraction
+# Pro-Military - Organization Regain Speed reduced to 10% from 25%
 # Anti-Military - Maximum military spending limit increased to 80% from 75%
-# Anti-Military - Supply consumption -25% removed, reinforce speed debuff reduced to -10% from -25%
+# Anti-Military - Supply consumption -25% removed, reinforce speed malus reduced to -10% from -25%
 # Anti-Military - Now also gives 1% Immigrant Attraction
+# Anti-Military - Organization Regain Speed malus reduced to -10% from -25%
 # Pacifist - Maximum military spending limit increased to 60% from 50%
-# Pacifist - War Justification speed debuff decreased to -30% from -40%
+# Pacifist - War Justification speed malus decreased to -30% from -40%
 # Pacifist - Removed Army Consumption -50%
 # Pacifist - Now also gives 2% Immigrant Attraction
-# Pacifist - Reinforce Speed debuff decreased to -20% from -50%
+# Pacifist - Reinforce Speed malus decreased to -20% from -50%
+# Anti-Military - Organization Regain Speed malus reduced to -20% from -50%
+# Most final political and social reforms now reduce militancy
+# Minimum Wage now reduces life needs for poor pops, scaling to -20%
+# Work hour reforms malus to Factory Throughput halved
+# Healthcare reforms: pop growth replaced with Military Hospitals scaling up to 2%
+# Unciv Finance Reforms buffed and should make it easier to civilize through them
+#
