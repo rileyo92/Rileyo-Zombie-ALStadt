@@ -188,13 +188,17 @@ political_decisions = {
 				tag = BOH
 			}
 			NOT = { has_country_flag = silesia_swap }
+			NOT = { has_country_flag = sgf_austria }
 		}
 		allow = {
 			owns = 682
 		}
 		effect = {
 			prestige = 5
-			PRU_682 = { add_core = THIS } #Silesia
+			PRU_682 = { #Silesia
+				add_core = THIS 
+				remove_core = GER
+			} 
 			set_country_flag = silesia_swap
 		}
 	}
@@ -205,10 +209,25 @@ political_decisions = {
 			NOT = { has_country_flag = sgf_austria }
 		}
 		allow = {
-			owns = 599
-			owns = 589
-			owns = 595
-			owns = 586
+			GER = {
+				all_core = {
+					OR = {
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+						province_id = 410 # Need not have Alsace-Lorraine
+						province_id = 409 # Need not have Alsace-Lorraine
+						province_id = 412 # Need not have Alsace-Lorraine
+						owned_by = THIS
+						NOT = {
+							culture = south_german
+						}
+					}
+				}
+			}
 		}
 		effect = {
 			prestige = 20
@@ -227,6 +246,7 @@ political_decisions = {
 			AUS_627 = { add_core = GER } #Sudetenland
 			AUS_625 = { add_core = GER } #Bohemia
 			AUS_626 = { add_core = GER } #Moravia
+			PRU_682 = { add_core = GER } #Silesia
 			set_country_flag = sgf_austria
 		}
 	}
