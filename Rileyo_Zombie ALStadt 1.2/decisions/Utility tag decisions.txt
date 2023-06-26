@@ -94,6 +94,15 @@ political_decisions = {
 					reduce_pop = 0.35
 				}
 			}
+			#Russian pop nerf
+			any_country = {
+				any_pop = {
+					limit = {
+           				has_pop_culture = russian
+					}
+					reduce_pop = 0.98
+				}
+			
 		}
 		ai_will_do = {
 			factor = 1
