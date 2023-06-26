@@ -336,7 +336,7 @@ political_decisions = {
 		}
 		effect = {
 			AUS_702 = { add_core = RUS }
-			AUS_662 = { add_core = RUS }
+			AUS_704 = { add_core = RUS }
 			950 = { add_core = RUS }
 			prestige = 10
 			badboy = 5

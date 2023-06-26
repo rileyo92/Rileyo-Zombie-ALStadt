@@ -103,7 +103,7 @@ political_decisions = {
       owns = 1552
     }
     effect = {
-      MCK = { all_cores = { add_core = THIS } }
+      MCK = { all_core = { add_core = THIS } }
       CHI_1479 = { life_rating = 5 }
       CHI_1553 = { life_rating = 5 }
       set_country_flag = manchuria_conquered
