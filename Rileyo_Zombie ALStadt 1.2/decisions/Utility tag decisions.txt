@@ -83,12 +83,12 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-            	has_pop_culture = nanfaren
-            	has_pop_culture = hakka
-            	has_pop_culture = min
-            	has_pop_culture = yue
-            	has_pop_culture = zhuang
-            	has_pop_culture = yi
+            				has_pop_culture = nanfaren
+            				has_pop_culture = hakka
+            				has_pop_culture = min
+            				has_pop_culture = yue
+            				has_pop_culture = zhuang
+            				has_pop_culture = yi
 						}
 					}
 					reduce_pop = 0.35
@@ -114,15 +114,15 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = caribeno
-              has_pop_culture = mexican
-							has_pop_culture = afro_caribeno
+              				has_pop_culture = mexican
 							has_pop_culture = quechua
 							has_pop_culture = danish
 							has_pop_culture = norwegian
 							has_pop_culture = swedish
 							has_pop_culture = finnish
-							has_pop_culture = estonian
+							has_pop_culture = latvian
+							has_pop_culture = lithuanian
+							
 						}
 					}
 					reduce_pop = 1.5
@@ -132,11 +132,15 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
+							has_pop_culture = estonian
 							has_pop_culture = brazilian
-              has_pop_culture = afro_brazilian
+              				has_pop_culture = afro_brazilian
 							has_pop_culture = central_american
 							has_pop_culture = anglo_canadian
-              has_pop_culture = french_canadian
+             				has_pop_culture = french_canadian
+							has_pop_culture = caribeno
+							has_pop_culture = afro_caribeno
+							has_pop_culture = afro_antillean
 						}
 					}
 					reduce_pop = 2
@@ -154,8 +158,8 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-              has_pop_culture = south_andean
-              has_pop_culture = north_andean
+              				has_pop_culture = south_andean
+              				has_pop_culture = north_andean
 							has_pop_culture = australian
 						}
 					}
@@ -472,7 +476,7 @@ political_decisions = {
 				any_pop = {
 					limit = {
 						OR = {
-            	has_pop_culture = serb
+            				has_pop_culture = serb
 							has_pop_culture = croat
 							has_pop_culture = armenian
 							has_pop_culture = georgian
