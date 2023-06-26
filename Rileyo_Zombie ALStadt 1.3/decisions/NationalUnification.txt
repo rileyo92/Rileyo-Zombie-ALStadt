@@ -58,8 +58,8 @@ political_decisions = {
 			FRA_412 = { add_core = SGF } #Alsace-Lorraine
 			change_tag = SGF
 			BAV = { all_core = { remove_core = BAV } } #Bavaria
-			BAD = { all_core = { remove_core = BAD } }`#Baden
-			WUR = { all_core = { remove_core = WUR } }`#Wurttemberg
+			BAD = { all_core = { remove_core = BAD } } #Baden
+			WUR = { all_core = { remove_core = WUR } } #Wurttemberg
 			HES = { all_core = { remove_core = HES } } #Hesse-Darmstadt
 		}
 		ai_will_do = {
@@ -504,9 +504,9 @@ political_decisions = {
 				change_province_name = "Kolmar"
 			}
 			409 = {
-				change_province_name = "Straùburg"
+				change_province_name = "StraÔøΩburg"
 				state_scope = {
-					change_region_name = "Elsaù-Lothringen"
+					change_region_name = "ElsaÔøΩ-Lothringen"
 				}
 			}
 			prestige = 5
@@ -616,8 +616,8 @@ political_decisions = {
 		}
 	}
 
-unite_moldavia_wallachia = {
-	potential = {
+	unite_moldavia_wallachia = {
+		potential = {
 			OR = {
 				tag = WAL
 				tag = MOL
