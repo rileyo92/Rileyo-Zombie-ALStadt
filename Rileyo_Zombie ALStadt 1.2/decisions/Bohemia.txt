@@ -10,8 +10,8 @@ political_decisions = {
     }
     allow = {
       NOT = {
-        owns = 619
-        owns = 613
+        owns = 619 #Vienna
+        owns = 613 #Salzburg
       }
       owns = 625
       owns = 631
@@ -19,7 +19,7 @@ political_decisions = {
     effect = {
       AUS = { all_core = { remove_core = AUS } }
       change_tag = CZH
-      capital = 625
+      capital = 625 #Prague
       primary_culture = czech
       add_accepted_culture = slovak
       add_accepted_culture = polish
@@ -100,14 +100,18 @@ political_decisions = {
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = czech }
+						NOT = { has_pop_culture = ashkenazi }
           }
           reduce_pop = 0.5
         }
         any_pop = {
 					limit = {
-            has_pop_culture = czech
+            OR = {
+              has_pop_culture = czech
+              has_pop_culture = ashkenazi
+            }
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.33
         }
 			}
       AUS_633 = { #Slovakia
@@ -115,14 +119,18 @@ political_decisions = {
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = slovak }
+						NOT = { has_pop_culture = ashkenazi }
           }
-          reduce_pop = 0.5
+          reduce_pop = 0.4
         }
         any_pop = {
 					limit = {
-            has_pop_culture = slovak
+            OR = {
+              has_pop_culture = slovak
+              has_pop_culture = ashkenazi
+            }
           }
-          reduce_pop = 1.25
+          reduce_pop = 1.5
         }
 			}
       950 = { #Transcarpathia
@@ -130,14 +138,18 @@ political_decisions = {
 				any_pop = {
 					limit = {
             NOT = { has_pop_culture = slovak }
+						NOT = { has_pop_culture = ashkenazi }
           }
-          reduce_pop = 0.5
+          reduce_pop = 0.4
         }
         any_pop = {
 					limit = {
-            has_pop_culture = slovak
+            OR = {
+              has_pop_culture = slovak
+              has_pop_culture = ashkenazi
+            }
           }
-          reduce_pop = 4
+          reduce_pop = 5
         }
       }
     }
