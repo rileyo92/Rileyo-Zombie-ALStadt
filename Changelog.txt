@@ -107,6 +107,7 @@
 # Starting pop buffs now affect Caribbean, Baltic and Ugrian pops more
 # Russian pops lowered by 2% to counter the extra accepted and total starting pops from the update
 # Austria-Hungary no longer accepts Croatian
+# Indian Pops reduced by 20%
 #
 # Government Changes:
 #
