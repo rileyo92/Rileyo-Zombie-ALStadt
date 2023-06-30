@@ -94,6 +94,21 @@ political_decisions = {
 					reduce_pop = 0.35
 				}
 			}
+			#Indian pop nerf
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+            				has_pop_culture = indo_aryian
+            				has_pop_culture = bengali
+            				has_pop_culture = dravidian
+            				has_pop_culture = panjabi
+
+						}
+					}
+					reduce_pop = 0.80
+				}
+			}
 			#Russian pop nerf
 			any_country = {
 				any_pop = {

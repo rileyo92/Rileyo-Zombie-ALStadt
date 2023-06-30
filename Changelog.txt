@@ -97,7 +97,7 @@
 # Base Immigration rate increased by 20%
 # Adjusted how Austria and Austria-Hungary form Germany, slightly improved Czechoslovakia escape option and Askhenazi are now not assimilated when forming but are accepted
 # Forming NGF or SGF as NOT Austria now removes the smaller nations cores to try to remove the nationalist rebels for each country rising up piecemeal
-# Austria no longer starts with cores on the Hungarian half of their empire. These cores are gained through forming Austria-Hungary instead
+# Austria no longer starts with cores on the Hungarian half of their empire. These cores are gained through forming Austria-Hungary instead.
 # Most South Germans pops in Carpathia now replaced with Siebenbergen pops
 # Forming Germany now accepts Siebenbergen pops
 # Fixed Spelling Mistakes and other localization mistakes.
@@ -108,6 +108,7 @@
 # Russian pops lowered by 2% to counter the extra accepted and total starting pops from the update
 # Austria-Hungary no longer accepts Croatian
 # Indian Pops reduced by 20%
+# Money Horder no longer affects china as harshly
 #
 # Government Changes:
 #
