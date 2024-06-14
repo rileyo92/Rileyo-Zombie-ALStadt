@@ -46,28 +46,28 @@ promotion_focus =
 {
 	promote_aristocrats =
 	{
-		aristocrats = 0.20 #20% more likeley to become artisans
+		aristocrats = 0.25 #20% more likeley to become artisans
 		icon = 5
 		outliner_show_as_percent = yes
 	}
 
 	promote_artisans =
 	{
-		artisans = 0.20 #20% more likeley to become this type
+		artisans = 0.25 #20% more likeley to become this type
 		icon = 6
 		outliner_show_as_percent = yes
 	}
 
 	promote_bureaucrats =
 	{
-		bureaucrats = 0.20 #20% more likeley to become this type
+		bureaucrats = 0.25 #20% more likeley to become this type
 		icon = 7
 		outliner_show_as_percent = yes
 	}
 
 	promote_capitalists =
 	{
-		capitalists = 0.20 #20% more likeley to become this type
+		capitalists = 0.25 #20% more likeley to become this type
 		icon = 8
 		outliner_show_as_percent = yes
 		limit = { 
@@ -78,14 +78,14 @@ promotion_focus =
 	
 	promote_clergymen =
 	{
-		clergymen = 0.20 #20% more likeley to become this type
+		clergymen = 0.25 #20% more likeley to become this type
 		icon = 9
 		outliner_show_as_percent = yes
 	}
 
 	promote_clerks =
 	{
-		clerks = 0.20 #20% more likeley to become this type
+		clerks = 0.25 #20% more likeley to become this type
 		icon = 10
 		outliner_show_as_percent = yes
 		limit = { 
@@ -95,7 +95,7 @@ promotion_focus =
 
 	promote_craftsmen =
 	{
-		craftsmen = 0.20 #20% more likeley to become this type
+		craftsmen = 0.25 #20% more likeley to become this type
 		icon = 11
 		outliner_show_as_percent = yes
 		limit = { 
@@ -105,28 +105,28 @@ promotion_focus =
 
 	promote_farmers =
 	{
-		farmers = 0.20 #20% more likeley to become this type
+		farmers = 0.25 #20% more likeley to become this type
 		icon = 12
 		outliner_show_as_percent = yes
 	}
 	
 	promote_labourers =
 	{
-		labourers = 0.20 #20% more likeley to become this type
+		labourers = 0.25 #20% more likeley to become this type
 		icon = 13
 		outliner_show_as_percent = yes
 	}
 
 	promote_officers =
 	{
-		officers = 0.20 #20% more likeley to become this type
+		officers = 0.25 #20% more likeley to become this type
 		icon = 14
 		outliner_show_as_percent = yes
 	}
 
 	promote_soldiers =
 	{
-		soldiers = 0.20 #20% more likeley to become this type
+		soldiers = 0.25 #20% more likeley to become this type
 		icon = 15
 		outliner_show_as_percent = yes
 	}
@@ -237,49 +237,49 @@ party_loyalty_focus =
 	fascist_focus =
 	{
 		ideology = fascist
-		loyalty_value = 0.012 # By that much pops will be more loyal
+		loyalty_value = 0.10 # By that much pops will be more loyal
 		icon = 25
 	}
 	
 	reactionary_focus =
 	{
 		ideology = reactionary
-		loyalty_value = 0.012 # By that much pops will be more loyal
+		loyalty_value = 0.10 # By that much pops will be more loyal
 		icon = 26
 	}
 	
 	conservative_focus =
 	{
 		ideology = conservative
-		loyalty_value = 0.012 # By that much pops will be more loyal
+		loyalty_value = 0.10 # By that much pops will be more loyal
 		icon = 27
 	}
 	
 	socialist_focus =
 	{
 		ideology = socialist
-		loyalty_value = 0.012 # By that much pops will be more loyal
+		loyalty_value = 0.10 # By that much pops will be more loyal
 		icon = 28
 	}
 	
 	communist_focus =
 	{
 		ideology = communist
-		loyalty_value = 0.012 # By that much pops will be more loyal
+		loyalty_value = 0.10 # By that much pops will be more loyal
 		icon = 29
 	}
 	
 	liberal_focus =
 	{
 		ideology = liberal
-		loyalty_value = 0.012 # By that much pops will be more loyal
+		loyalty_value = 0.10 # By that much pops will be more loyal
 		icon = 30
 	}
 	
 	anarcho_liberal_focus =
 	{
 		ideology = anarcho_liberal
-		loyalty_value = 0.012 # By that much pops will be more loyal
+		loyalty_value = 0.10 # By that much pops will be more loyal
 		icon = 31
 	}
 }
