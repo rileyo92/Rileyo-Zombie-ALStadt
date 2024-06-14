@@ -2,7 +2,6 @@ capital = 860
 primary_culture = turkish
 culture = bosniak
 culture = albanian
-culture = bulgarian
 culture = north_caucasian
 culture = tatar
 religion = sunni

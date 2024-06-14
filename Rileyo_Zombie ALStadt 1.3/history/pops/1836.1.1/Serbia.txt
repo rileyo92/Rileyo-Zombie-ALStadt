@@ -488,43 +488,43 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1175
 	}
 
 	bureaucrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 150
 	}
 
 	officers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 3000
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 3450
 	}
@@ -568,31 +568,31 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 850
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 2500
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 3575
 	}
@@ -620,43 +620,43 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 850
 	}
 
 	bureaucrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 150
 	}
 
 	officers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1800
 	}
@@ -706,31 +706,31 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 750
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1750
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 4150
 	}

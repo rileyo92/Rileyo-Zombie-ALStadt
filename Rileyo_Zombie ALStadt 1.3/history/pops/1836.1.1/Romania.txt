@@ -2287,43 +2287,43 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 650
 	}
 
 	bureaucrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 75
 	}
 
 	officers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 35
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 4165
 	}
@@ -2349,31 +2349,31 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = bosniak
 		religion = sunni
 		size = 600
 	}
