@@ -6,19 +6,20 @@ party_issues = {
 		protectionism = {
 			max_tariff = 1
 			min_tariff = -0.25
+			import_cost = 0.10
 		}
 		free_trade = {
 			max_tariff = 0.25
 			min_tariff = -1
+			import_cost = -0.10
 		}
 	}
 	economic_policy = {
 		laissez_faire = {
-			max_tax = 0.6
-			factory_owner_cost = 0.3
-			factory_output = 0.10
-			factory_input = -0.10
-			import_cost = -0.20
+			max_tax = 0.75
+			factory_owner_cost = 0.25
+			factory_output = 0.15
+			factory_input = -0.15
 			
 			rules = {
 				build_factory = no
@@ -41,7 +42,7 @@ party_issues = {
 			}
 		}
 		interventionism = {
-			factory_owner_cost = 0.5
+			factory_owner_cost = 0.50
 			
 			rules = {
 				build_factory = no
@@ -67,7 +68,7 @@ party_issues = {
 		}
 		state_capitalism = {
 			min_tax = 0.25
-			factory_owner_cost = 0.6
+			factory_owner_cost = 0.75
 			rules = {
 				build_factory = yes
 				expand_factory = yes
@@ -154,6 +155,7 @@ party_issues = {
 		}
 		pro_military = {
 			max_military_spending = 1.0
+			supply_consumption = 0.05
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
 			mobilization_impact = 3
@@ -163,6 +165,7 @@ party_issues = {
 		}
 		anti_military = {
 			max_military_spending = 0.8
+			supply_consumption = -0.05
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.2
 			mobilization_impact = 2
@@ -173,6 +176,7 @@ party_issues = {
 		}
 		pacifism = {
 			max_military_spending = 0.6
+			supply_consumption = -0.10
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.3
 			mobilization_impact = 1
