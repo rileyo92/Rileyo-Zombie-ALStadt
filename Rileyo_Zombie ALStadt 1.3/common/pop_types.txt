@@ -291,7 +291,7 @@ demotion_chance =
 #general migration chance mtth, same for all pops
 migration_chance =
 {
-	factor = 0.6
+	factor = 0.5
 
 #If pop group is 70%/80%/90%/99% literacy, is not primary culture, and is in a colony then 2.5% chance to migrate to another state for each threshold. (Chance for colonial pops to migrate to home states once they reach some literacy thresholds)	(10% total)
 	group = {
@@ -948,20 +948,20 @@ emigration_chance =
 		state_scope = { is_colonial = yes }
 	}
 
-	modifier = {
-		factor = -0.4
-		is_accepted_culture = no
-		NOT = { culture = irish }
-	}
+	#modifier = {
+	#	factor = -0.4
+	#	is_accepted_culture = no
+	#	NOT = { culture = irish }
+	#}
 
-	modifier = {
-	   factor = -0.5
-		 culture = nanfaren
-	}
+	#modifier = {
+	#   factor = -0.5
+	#	 culture = nanfaren
+	#}
 }
 #general assimilation mtth, same for all pops
 assimilation_chance = {
-	factor = 1
+	factor = 1.1
 
 
 #IMPORTANT DO NOT DELETE - blocks assimilation if the state is colonial and/or the country trying to assimilate pops is unciv and/or the pop is below 100% life needs.
@@ -997,6 +997,14 @@ assimilation_chance = {
 			AND = {
 				has_pop_culture = serb
 				OR = {
+					tag = AUS
+					tag = KUK
+				}
+			}
+			AND = {
+				has_pop_culture = polish
+				OR = {
+					tag = RUS
 					tag = AUS
 					tag = KUK
 				}
