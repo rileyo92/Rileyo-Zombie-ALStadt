@@ -115,7 +115,7 @@ political_decisions = {
 					limit = {
            				has_pop_culture = russian
 					}
-					reduce_pop = 0.98
+					reduce_pop = 0.95
 				}
 			}
 		}
@@ -150,6 +150,24 @@ political_decisions = {
 						}
 					}
 					reduce_pop = 1.5
+				}
+			}
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+              				has_pop_culture = serb
+							has_pop_culture = bosniak
+							has_pop_culture = bulgarian
+							has_pop_culture = albanian
+							has_pop_culture = greek
+							has_pop_culture = croat
+							has_pop_culture = slovene
+							has_pop_culture = turkish
+							has_pop_culture = romanian
+						}
+					}
+					reduce_pop = 1.25
 				}
 			}
 			any_country = {
@@ -503,6 +521,7 @@ political_decisions = {
 						OR = {
             				has_pop_culture = serb
 							has_pop_culture = croat
+							has_pop_culture = bulgarian
 							has_pop_culture = armenian
 							has_pop_culture = georgian
 						}

@@ -6,24 +6,54 @@ province_event = {
 
 	trigger = {
 		OR = {
-			province_id = 1498
-			province_id = 1496
-			AND = {
-				province_id = 1569
-				NOT = { total_pops = 30000 }
+			AND = { #Chinese Treaty Ports
+				OR = {
+					province_id = 1498 #Macau
+					province_id = 1496 #Hong Kong
+					province_id = 1608 
+					province_id = 1606 
+					province_id = 1538 #Shanghai
+					province_id = 1569
+					province_id = 1566 
+					province_id = 1481 #Port Arther
+				}
+				NOT = { has_province_modifier = treaty_port }
+				owner = {
+					civilized = yes
+					NOT = { primary_culture = nanfaren }
+					NOT = { primary_culture = manchu }
+				}
 			}
-			AND = {
-				province_id = 1566
-				NOT = { total_pops = 30000 }
+			AND = { #Indian Treaty Ports
+				OR = {
+					province_id = 1303 #Goa
+					province_id = 1312 #Pondicherry
+				}
+				NOT = { has_province_modifier = treaty_port }
+				owner = {
+					civilized = yes
+				}
 			}
-		}
-		port = yes
-		NOT = { has_province_modifier = treaty_port }
-		NOT = { province_id = 1499 }
-		owner = {
-			civilized = yes
-			NOT = { primary_culture = nanfaren }
-			NOT = { primary_culture = manchu }
+			AND = { #Malayan Treaty Ports
+				OR = {
+					province_id = 1388 #
+					province_id = 1386 #
+					province_id = 1384 #Singapore
+				}
+				NOT = { has_province_modifier = treaty_port }
+				owner = {
+					civilized = yes
+				}
+			}
+			AND = { #Suez Canal
+				OR = {
+					province_id = 1755 #Suez Canal
+				}
+				NOT = { has_province_modifier = treaty_port }
+				owner = {
+					civilized = yes
+				}
+			}
 		}
 	}
 
