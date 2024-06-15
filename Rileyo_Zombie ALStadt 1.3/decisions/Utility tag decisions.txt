@@ -100,17 +100,17 @@ political_decisions = {
 					reduce_pop = 0.5
         		}
      		}
-			ENG_254 = { #Connacht
+			ENG_258 = { #Connacht
         		any_pop = {
 					reduce_pop = 0.5
         		}
      		}
-			ENG_254 = { #Munster
+			ENG_260 = { #Munster
         		any_pop = {
 					reduce_pop = 0.5
         		}
      		}
-			ENG_254 = { #Leinster
+			ENG_263 = { #Leinster
         		any_pop = {
 					reduce_pop = 0.5
         		}
