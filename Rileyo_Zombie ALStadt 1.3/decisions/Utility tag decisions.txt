@@ -78,7 +78,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = population_setup_nerfs_done
 
-			#chinese pop nerfs
+			#Chinese pop Nerf
 			any_country = {
 				any_pop = {
 					limit = {
@@ -94,6 +94,27 @@ political_decisions = {
 					reduce_pop = 0.35
 				}
 			}
+			#Ireland pop Nerf
+			ENG_254 = { #Ulster
+        		any_pop = {
+					reduce_pop = 0.5
+        		}
+     		}
+			ENG_254 = { #Connacht
+        		any_pop = {
+					reduce_pop = 0.5
+        		}
+     		}
+			ENG_254 = { #Munster
+        		any_pop = {
+					reduce_pop = 0.5
+        		}
+     		}
+			ENG_254 = { #Leinster
+        		any_pop = {
+					reduce_pop = 0.5
+        		}
+     		}
 			#Indian pop nerf
 			any_country = {
 				any_pop = {
@@ -132,14 +153,11 @@ political_decisions = {
 		allow = { }
 		effect = {
 			set_global_flag = population_setup_buffs_done
-
-			#New World pop buffs
+			#Scandinavian/Baltic pop Buff
 			any_country = {
 				any_pop = {
 					limit = {
 						OR = {
-              				has_pop_culture = mexican
-							has_pop_culture = quechua
 							has_pop_culture = danish
 							has_pop_culture = norwegian
 							has_pop_culture = swedish
@@ -152,6 +170,27 @@ political_decisions = {
 					reduce_pop = 1.5
 				}
 			}
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = estonian
+							has_pop_culture = ugrian
+							
+						}
+					}
+					reduce_pop = 2
+				}
+			}
+			any_country = {
+				any_pop = {
+					limit = {
+						has_pop_culture = icelandic
+					}
+					reduce_pop = 3
+				}
+			}
+			#Balkan pop Buff
 			any_country = {
 				any_pop = {
 					limit = {
@@ -170,12 +209,23 @@ political_decisions = {
 					reduce_pop = 1.25
 				}
 			}
+			#New World pop Buff
 			any_country = {
 				any_pop = {
 					limit = {
 						OR = {
-							has_pop_culture = estonian
-							has_pop_culture = ugrian
+              				has_pop_culture = mexican
+							has_pop_culture = quechua
+						}
+					}
+					reduce_pop = 1.5
+				}
+			}
+			any_country = {
+				any_pop = {
+					limit = {
+						OR = {
+							
 							has_pop_culture = brazilian
               				has_pop_culture = afro_brazilian
 							has_pop_culture = central_american
@@ -189,15 +239,7 @@ political_decisions = {
 					reduce_pop = 2
 				}
 			}
-      any_country = {
-				any_pop = {
-					limit = {
-						has_pop_culture = icelandic
-					}
-					reduce_pop = 3
-				}
-			}
-      any_country = {
+      		any_country = {
 				any_pop = {
 					limit = {
 						OR = {
