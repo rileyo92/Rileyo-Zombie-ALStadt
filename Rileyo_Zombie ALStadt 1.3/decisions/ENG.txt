@@ -252,7 +252,7 @@ political_decisions = {
 		}
 		effect = {
 			CAN = { annex_to = THIS }
-			badboy = 10
+			badboy = 15
 		}
 		ai_will_do = {
 			factor = 0
