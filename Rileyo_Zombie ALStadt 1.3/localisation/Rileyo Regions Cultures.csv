@@ -4,7 +4,7 @@ dravidian;Dravidian;;;;;;;;;;;;;;x
 indo_aryian;Indo-Aryian;;;;;;;;;;;;;;x
 nanfaren;Han;;;;;;;;;;;;;;x
 kazak;Turkic;;;;;;;;;;;;;;x
-siebenbergen;Siebenbürger;;;;;;;;;;;;;;x
+siebenbergen;Siebenburger;;;;;;;;;;;;;;x
 afro_asiatic;Afro-Asiatic;;;;;;;;;;;;;;x
 nilo_saharan;Nilo-Saharan;;;;;;;;;;;;;;x
 bantu;Bantu;;;;;;;;;;;;;;x
@@ -76,7 +76,7 @@ EGY_1754;Libyan Coast;;;;;;;;;;;;;;x
 EGY_1751;Nile Delta;;;;;;;;;;;;;;x
 EGY_1746;Suez Canal Zone;;;;;;;;;;;;;;x
 EGY_1838;Darfur;;;;;;;;;;;;;;x
-POR_1999;Angolan Coast;;;;;;;;;;;;;;x
+ANG_1999;Angolan Coast;;;;;;;;;;;;;;x
 ENG_271;Scotland;;;;;;;;;;;;;;x
 ENG_258;Connacht;;;;;;;;;;;;;;x
 ENG_263;Leinster;;;;;;;;;;;;;;x
@@ -189,3 +189,13 @@ KOR_1619;Pyongan;;;;;;;;;;;;;;x
 ANN_1383;South Vietnam;;;;;;;;;;;;;;x
 ANN_1371;North Vietnam;;;;;;;;;;;;;;x
 MYS_1314;Mysore-Travancore;;;;;;;;;;;;;;x
+NGA_1934;Calabar;;;;;;;;;;;;;;x
+RWA_2034;Rwanda-Burundi;;;;;;;;;;;;;;x
+NAM_2083;Namibia;;;;;;;;;;;;;;x
+TOG_1919;Togo-Dahomey;;;;;;;;;;;;;;x
+JAV_1413;Banten;;;;;;;;;;;;;;x
+JAV_1415;Central Java;;;;;;;;;;;;;;x
+JAV_1419;East Java;;;;;;;;;;;;;;x
+JAV_1418;Surabaya-Madura;;;;;;;;;;;;;;x
+BAL_1442;Bali;;;;;;;;;;;;;;x
+PNG_2528;Papua New Guinea;;;;;;;;;;;;;;x
