@@ -45,15 +45,6 @@ province_event = {
 					civilized = yes
 				}
 			}
-			AND = { #Suez Canal
-				OR = {
-					province_id = 1755 #Suez Canal
-				}
-				NOT = { has_province_modifier = treaty_port }
-				owner = {
-					civilized = yes
-				}
-			}
 		}
 	}
 
