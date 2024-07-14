@@ -318,6 +318,7 @@ political_decisions = {
 				remove_accepted_culture = hungarian
 				remove_accepted_culture = slovak
 			}
+			change_tag = GER
 			any_country = {
 				limit = {
 					is_culture_group = germanic
@@ -328,8 +329,6 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
-			change_tag = GER
-
 		}
 		ai_will_do = {
 			factor = 1
