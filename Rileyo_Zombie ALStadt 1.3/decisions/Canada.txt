@@ -104,4 +104,21 @@ political_decisions = {
 			}
     }
   }
+  assimilate_alaska_CAN = {
+		potential = {
+      OR = {
+			  tag = CAN
+        tag = COL
+      }
+			has_global_flag = alaska_claimed_can
+			NOT = { has_global_flag = alaska_assimilated }
+		}
+		allow = {
+			owns = 1
+		}
+		effect = {
+			USA_1 = { assimilate = yes }
+			set_global_flag = alaska_assimilated
+		}
+	}
 }

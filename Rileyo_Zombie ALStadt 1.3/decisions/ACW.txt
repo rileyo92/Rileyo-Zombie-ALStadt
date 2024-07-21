@@ -889,4 +889,19 @@ political_decisions = {
 			set_country_flag = you_did_try
 		}
 	}
+
+	assimilate_alaska_USA = {
+		potential = {
+			tag = USA
+			has_country_flag = you_did_try
+			NOT = { has_global_flag = alaska_assimilated }
+		}
+		allow = {
+			owns = 1
+		}
+		effect = {
+			USA_1 = { assimilate = yes }
+			set_global_flag = alaska_assimilated
+		}
+	}
 }
