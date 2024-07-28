@@ -139,3 +139,43 @@
 # Healthcare reforms: pop growth replaced with Military Hospitals scaling up to 2%
 # Unciv Finance Reforms buffed and should make it easier to civilize through them
 #
+# 1.4 Changes
+#
+# National focuses Promotion chance increased to +25% from +20%
+# National focuses party loyalty change increased from +0.012 to +0.1
+# Immigration reduced by 16.6%, assimilation rate increased by 10%, Polish will no longer assimilate into Russia or Austria-Hungary
+# Infamy at war now decreaes by -0.10, used to be -0.055
+# Treaty ports now trigger with Goa, Pondicherry, Singapore, Malacca and Penang
+# Suez and Panama Canals now alos turn their provinces into gold
+# Cores will now take +50% longer to create if not accepted culture
+# Java split into 4 regions from 2, merged regions in Africa to remove 6 states, Bali now its own state
+# Decision to assimilate Alaska for Canada or USA if you take it from russia
+# Nordrhein merged into Westphalia
+#
+# Nation-Specific:
+#
+# GB: Irish pops nerfed by 50% to represent famine
+# GB: Canada now costs 15 infamy to annex instead of 10
+# GB: Life Ratings adjusted in Great Britain (Not Ireland)
+# Ottomans: Balkan Focus now gives bulgarian accepted instead of greek, bulgarian pops buffed by 25%
+# Ottomans: Turkish pops in the balkans (excluding greece and turkey) have now been converted into bosniaks
+# Russia: Russian pops nerfed by 5% instead of 2%
+# 
+#
+# Government Changes:
+#
+# Protetionism: Now gives +10% Import Cost
+# Free Trade: Now gives -10% Import Cost
+# Laissez Faire: Maximum Taxes increased to 75% from 60%
+# Laissez Faire: Factory Cost decreased to 25% from 30%
+# Laissez Faire: Factory output increased to +15% from +10%, Factory Imput increased to -15% from -10%
+# State Capitalism: Factory Cost increased to 75% from 60%
+# Jingoism: Now also gives Supply Consumption +10%
+# Pro-Military: Now also gives Supply Consumption +5%
+# Anti-Military: Now also gives Supply Consumption -5%
+# Pacifism: Now also gives Supply Consumption -10%
+#
+# Bug Fixes:
+#
+# Fixed Germany forming and not annexing german minors
+# Gibraltar is now spelled correctly 
