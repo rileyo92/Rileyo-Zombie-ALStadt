@@ -173,7 +173,11 @@ political_decisions = {
 			any_country = {
 				any_pop = {
 					limit = {
-						has_pop_culture = estonian
+						OR = {
+							has_pop_culture = estonian
+							has_pop_culture = ugrian
+							
+						}
 					}
 					reduce_pop = 2
 				}
@@ -184,14 +188,6 @@ political_decisions = {
 						has_pop_culture = icelandic
 					}
 					reduce_pop = 3
-				}
-			}
-			any_country = {
-				any_pop = {
-					limit = {
-						has_pop_culture = ugrian
-					}
-					reduce_pop = 4
 				}
 			}
 			#Balkan pop Buff
