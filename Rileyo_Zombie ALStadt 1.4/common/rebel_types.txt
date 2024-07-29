@@ -1905,8 +1905,7 @@ red_shirts = {
 			limit = {
 				is_culture_group = THIS
 				OR = {
-					is_greater_power = yes
-					tag = SAR
+					rank = 16
 				}
 				NOT = {
 					is_cultural_union = yes
