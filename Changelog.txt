@@ -109,6 +109,7 @@
 # Austria-Hungary no longer accepts Croatian
 # Indian Pops reduced by 20%
 # Money Horder no longer affects china as harshly
+# Ugrian pops doubled
 #
 # Government Changes:
 #
