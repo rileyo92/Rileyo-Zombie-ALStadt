@@ -3,5 +3,5 @@ controller = AUS
 add_core = SER
 add_core = HUN
 add_core = YUG
-trade_goods = wool
+trade_goods = grain
 life_rating = 35
