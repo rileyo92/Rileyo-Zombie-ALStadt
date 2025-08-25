@@ -1,11 +1,19 @@
 owner = USA
 controller = USA
-add_core = USA
-trade_goods = grain
-life_rating = 50
-railroad = 1
+
+add_core = USA
+trade_goods = precious_metal
+life_rating = 50
+
+railroad = 1
+
 fort = 1
-party_loyalty = {	ideology = liberal	loyalty_value = 25}
+
+
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 25
+}
 state_building = {
 	level = 1
 	building = cement_factory
@@ -15,4 +23,5 @@ state_building = {
 	level = 1
 	building = lumber_mill
 	upgrade = yes
-}
+}
+
