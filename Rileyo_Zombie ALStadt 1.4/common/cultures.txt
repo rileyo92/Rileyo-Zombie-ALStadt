@@ -235,7 +235,7 @@ british = {
 	leader = european
 	unit = BritishGC
 	british = {
-		color = { 220 100 220}
+		color = { 200 16 46 }
 		first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
 		Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis
 		Frederick Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
